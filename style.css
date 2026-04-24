@@ -93,6 +93,11 @@
     .navBar {
         padding: 5px 3px;
     }
+
+    .header{
+         font-size: clamp(1px, 6vw, 50px);
+
+    }
 }
 
 @media (max-width: 480px) {
