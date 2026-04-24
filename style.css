@@ -1,0 +1,142 @@
+.body {
+    background-color: #1b5802;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 700px;
+    gap: 2px;
+    margin-top: clamp(1px, 4vh, 10px);
+    margin-left: clamp(10px, 15vw, 50px);
+
+}
+
+@font-face {
+    font-family: 'Gagalin';
+    src: url('fonts/Gagalin-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+
+    color: white;
+    font-family: 'Courier Prime', monospace;
+    font-size: clamp(1px, 3vw, 50px);
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 2px;
+
+}
+
+.name-header {
+
+    color: #ffbd59;
+    font-family: "Gagalin";
+    font-size: clamp(1px, 5vw, 80px);
+
+}
+
+.box {
+    background-color: transparent;
+    width: clamp(20px, 40vw, 640px);
+    top: clamp(10px, 100vh, 150px);
+    left: clamp(1px, 10vw, 98px);
+}
+
+.description {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: clamp(5px, 1.2vw, 13px);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.image-box {
+    position: absolute;
+
+    width: clamp(150px, 40vw, 1000px);
+
+    top: clamp(20px, 20vh, 150px);
+    left: clamp(10px, 55vw, 1200px);
+}
+
+.my-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.navBar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #ffbd59;
+    padding: 9px 5px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 780px) {
+    .navBar {
+        padding: 5px 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navBar {
+        padding: 3px 1px;
+    }
+}
+
+
+.logo {
+    font-size: 1.5rem;
+    color: #1b5802;
+    font-family: "Gagalin";
+    margin-left: clamp(1px, 10vw, 70px);
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    gap: clamp(1px, 2vw, 1px);
+
+}
+
+.navBar li {
+    margin: 0 28px;
+}
+
+.navBar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1b5802;
+    font-size: clamp(2px, 1.5vw, 20px);
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 5px;
+
+}
+
+.navBar a:hover {
+    background-color: #77946c;
+    border-radius: 50px;
+    color: white;
+
+}
