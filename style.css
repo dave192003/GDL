@@ -119,18 +119,37 @@ body {
     }
 
     .name-header {
-        font-size: clamp(2px, 18vw, 30px);
+        font-size: clamp(2px, 18vw, 90px);
     }
 
     .image-box {
+        grid-row: 2;
         width: 50vw;
-        margin-left: 0;
+    }
+    
+    .description{
+        font-size: clamp(10px, 17vw, 20px);
+        text-align: justify;
+
+    }
+
+    .box{
+        width: clamp(200px, 100vw, 410px);
     }
 
     .container {
-        padding-left: 20px;
-        justify-self: center;
+        grid-row: 1;
+        width: clamp(200px, 500vw, 500px);
+        padding-left: 1px;
+        padding-top: 1px;
+        justify-items: center;
 
+    }
+
+    .navBar .logo{
+        font-size: clamp(2px, 5vw, 20px);
+        margin-left: clamp(2px, 4vw, 13px);
+        
     }
 
 
