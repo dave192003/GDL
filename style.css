@@ -1,23 +1,24 @@
-.body {
+body {
     background-color: #1b5802;
     margin: 0;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: start;
+    padding: 70px 20px 20px;
+    min-height: 100vh;
 
 }
 
 .container {
+    grid-column: 1;
+    justify-self: start;
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     max-width: 700px;
     gap: 2px;
-    margin-top: clamp(1px, 4vh, 10px);
-    margin-left: clamp(10px, 15vw, 50px);
+    padding-left: 50px;
 
 }
 
@@ -32,7 +33,7 @@
 
     color: white;
     font-family: 'Courier Prime', monospace;
-    font-size: clamp(1px, 3vw, 50px);
+    font-size: clamp(18px, 5vw, 32px);
     font-weight: bold;
     margin-top: 50px;
     margin-left: 2px;
@@ -43,7 +44,7 @@
 
     color: #ffbd59;
     font-family: "Gagalin";
-    font-size: clamp(1px, 5vw, 80px);
+    font-size: clamp(24px, 8vw, 78px);
 
 }
 
@@ -63,12 +64,14 @@
 }
 
 .image-box {
-    position: absolute;
-
-    width: clamp(150px, 40vw, 1000px);
-
-    top: clamp(20px, 20vh, 150px);
-    left: clamp(10px, 55vw, 1200px);
+    grid-column: 2;
+    justify-self: start;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: clamp(100px, 40vw, 700px);
+    padding-left: 50px;
+    padding-top: 58px
 }
 
 .my-image {
@@ -83,7 +86,7 @@
     position: fixed;
     justify-content: space-between;
     background-color: #ffbd59;
-    padding: 9px 5px;
+    padding: 9px 1px;
     width: 100%;
     top: 0;
     left: 0;
@@ -94,36 +97,49 @@
         padding: 5px 3px;
     }
 
-   
+
 }
 
 @media (max-width: 480px) {
-    .navBar {
-        padding: 1px 3px;
+
+    body {
+        grid-template-columns: 1fr;
     }
 
-    .header{
+    .navBar {
+        padding: 1px 3px;
+
+    }
+
+    .header {
         font-size: clamp(1px, 7vw, 20px);
     }
 
-    .name-header{
+    .name-header {
         font-size: clamp(2px, 18vw, 30px);
     }
 
-    .container{
-         max-width: 800px;
-        margin-top: clamp(5px, 4vh, 10px);
-        margin-left: clamp(10px, 1vw, 50px);
+    .image-box {
+        width: 50vw;
+        margin-left: 0;
     }
-    
+
+    .container {
+        padding-left: 20px;
+        justify-self: center;
+
+    }
+
+
 }
 
 
 .logo {
-    font-size: 1.5rem;
+    font-size: clamp(5px, 2vw, 20px);
     color: #1b5802;
     font-family: "Gagalin";
-    margin-left: clamp(1px, 10vw, 70px);
+    margin-left: clamp(1px, 2vw, 70px);
+    margin-top: clamp(5px, 4vh, 2px);
 }
 
 .navBar ul {
@@ -137,17 +153,18 @@
 }
 
 .navBar li {
-    margin: 0 28px;
+    margin: 0 clamp(5px, 2vw, 15px);
 }
+
 
 .navBar a {
     display: inline-block;
     text-decoration: none;
     color: #1b5802;
     font-size: clamp(2px, 1.5vw, 20px);
-    padding: 2px;
-    border: 2px solid;
-    border-radius: 5px;
+    padding: 6px;
+    
+    
 
 }
 
