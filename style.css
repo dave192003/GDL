@@ -114,6 +114,11 @@ body {
 
     }
 
+    .navBar ul a{
+        font-size: clamp(5px, 5vw, 11px);
+
+    }
+
     .header {
         font-size: clamp(1px, 7vw, 20px);
     }
