@@ -70,7 +70,7 @@ body {
     flex-direction: column;
     height: auto;
     width: clamp(100px, 45vw, 800px);
-    padding-left: 50px;
+    padding-left: 35px;
     padding-top: 58px
 }
 
