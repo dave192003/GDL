@@ -92,7 +92,7 @@ body {
     top: 0;
     left: 0;
     box-shadow: 5px 20px 25px rgba(47, 65, 7, 0.5);
-   
+
 }
 
 @media (max-width: 780px) {
@@ -110,11 +110,11 @@ body {
     }
 
     .navBar {
-        padding: 1px 3px;
+        padding: 5px 3px;
 
     }
 
-    .navBar ul a{
+    .navBar ul a {
         font-size: clamp(5px, 5vw, 11px);
 
     }
@@ -130,23 +130,21 @@ body {
     .image-box {
         grid-row: 2;
         grid-column: 1;
-        width: clamp(200px,90vw, 900px);
+        width: clamp(200px, 90vw, 900px);
         align-self: center;
         justify-self: center;
         padding-left: 0;
         margin-top: -25px
-        
-       
     }
 
-    
-    .description{
+
+    .description {
         font-size: clamp(10px, 12vw, 13px);
         text-align: justify;
 
     }
 
-    .box{
+    .box {
         width: clamp(200px, 91vw, 480px);
     }
 
@@ -162,10 +160,10 @@ body {
 
     }
 
-    .navBar .logo{
+    .navBar .logo {
         font-size: clamp(2px, 5vw, 20px);
         margin-left: clamp(2px, 4vw, 13px);
-        margin-top: clamp(0px, 4vh,1px);
+        margin-top: clamp(0px, 4vh, 1px);
     }
 
 
@@ -201,9 +199,9 @@ body {
     color: #1b5802;
     font-size: clamp(2px, 1.5vw, 20px);
     padding: 6px;
-    
-    
-    
+
+
+
 
 }
 
