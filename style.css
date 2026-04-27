@@ -145,7 +145,7 @@ body {
     }
 
     .box {
-        width: clamp(200px, 91vw, 480px);
+        width: clamp(200px, 88vw, 480px);
     }
 
     .container {
