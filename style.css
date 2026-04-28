@@ -95,11 +95,12 @@ body {
 
 }
 
+/* For Tablet View */
+
 @media (max-width: 780px) {
     .navBar {
         padding: 5px 3px;
     }
-
 
 }
 
@@ -136,7 +137,6 @@ body {
         justify-self: center;
         padding-left: 0;
         margin-top: -45px
-
     }
 
     .description {
@@ -200,10 +200,6 @@ body {
     color: #1b5802;
     font-size: clamp(2px, 1.5vw, 20px);
     padding: 6px;
-
-
-
-
 }
 
 .navBar a:hover {
