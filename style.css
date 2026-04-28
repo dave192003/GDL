@@ -70,6 +70,7 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
+
     width: clamp(30px, 38vw, 800px);
     padding-left: 35px;
     padding-top: 58px
@@ -79,6 +80,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 50%;
+    border: 1px solid #ffbd59;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
