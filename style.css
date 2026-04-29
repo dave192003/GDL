@@ -99,11 +99,16 @@ body {
     padding: clamp(1px, 1vw, 25px) clamp(2px ,2vw, 50px);
     font-size: clamp(6px, 1.5vw, 30px);
     margin-left: clamp(1px, 4.7vw, 30px);
-  
     line-height: 1;
     color:#1b5802;
     font-weight: bold;
+}
 
+.button:hover{
+    transform:scale(1.1);
+    background-color: #5d7454;
+    color: white;
+    
 }
 
 
