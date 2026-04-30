@@ -178,9 +178,12 @@ body {
 .artwork-container{
     grid-column: 1 / -1;
     grid-row: 4;
+    display: grid;
     width: 100%;
     margin-top: 40px;
     font-family: "Roboto", sans-serif;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
    
    
 
