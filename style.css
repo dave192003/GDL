@@ -1,6 +1,5 @@
 /* importing Google fonts - Road Rage */
-@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     background-color: #1b5802;
@@ -181,6 +180,7 @@ body {
     grid-row: 4;
     width: 100%;
     margin-top: 40px;
+    font-family: "Roboto", sans-serif;
    
 
 }
@@ -207,6 +207,16 @@ body {
     transform: rotate(180deg);
     aspect-ratio: 1 /1 ;
 }
+
+.card-list .card-item .card-link .badge{
+    background: rgb(73, 233, 73, 0.4);
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    padding-left: 6px;
+    
+}
+
 
 /* TABLET VIEW  */
 
