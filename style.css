@@ -202,6 +202,11 @@ body {
     margin: -5px -5px;
 }
 
+.card-list .card-item .card-link .card-button{
+    border-radius: 50%;
+    transform: rotate(180deg);
+    aspect-ratio: 1 /1 ;
+}
 
 /* TABLET VIEW  */
 
