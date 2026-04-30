@@ -210,6 +210,13 @@ body {
     aspect-ratio: 1 /1 ;
 }
 
+.card-list .card-item .card-link .card-button:hover{
+    background: rgb(55, 167, 70, 0.5);
+    transform: rotate(150deg) scale(1.2);
+    transition: transform 0.2s ease;
+   
+    
+}
 .card-list .card-item .card-link .badge{
     background: rgb(73, 233, 73, 0.3);
     width: 110px;
@@ -217,6 +224,8 @@ body {
     color: rgb(25, 94, 16);
     padding-left: 5px;
 }
+
+
 
 
 /* TABLET VIEW  */
