@@ -182,6 +182,7 @@ body {
     margin-top: 40px;
     font-family: "Roboto", sans-serif;
    
+   
 
 }
 
@@ -193,6 +194,7 @@ body {
     border-radius: 12px;
     text-decoration: none;
     margin-left: clamp(5px, 1vw, 1px);
+     box-shadow: 10px 10px 10px  rgba(21, 71, 40, 0.8);
 }
 
 .card-list .card-link .card-image{
