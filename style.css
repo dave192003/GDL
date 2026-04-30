@@ -1,3 +1,7 @@
+/* importing Google fonts - Road Rage */
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+
 body {
     background-color: #1b5802;
     margin: 0;
@@ -170,9 +174,33 @@ body {
     background-color: #77946c;
     border-radius: 50px;
     color: white;
+}
+
+.artwork-container{
+    grid-column: 1 / -1;
+    grid-row: 4;
+    width: 100%;
+    margin-top: 40px;
+   
 
 }
 
+.card-list .card-item .card-link{
+    width: 400px;
+    display: block;
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-left: clamp(5px, 1vw, 1px);
+}
+
+.card-list .card-link .card-image{
+    border-radius: 15px;
+    width: 100%;
+    border: 6px solid #ffbd59;
+    margin: -5px -5px;
+}
 
 
 /* TABLET VIEW  */
