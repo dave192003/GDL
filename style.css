@@ -183,21 +183,20 @@ body {
     margin-top: 40px;
     font-family: "Roboto", sans-serif;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-   
-   
+    gap: 1px;
 
+   
 }
 
 .card-list .card-item .card-link{
-    width: 400px;
+    width: 290px;
     display: block;
     background: white;
     padding: 18px;
     border-radius: 12px;
     text-decoration: none;
     margin-left: clamp(5px, 1vw, 1px);
-     box-shadow: 10px 10px 10px  rgba(21, 71, 40, 0.8);
+    box-shadow: 10px 10px 10px  rgba(21, 71, 40, 0.8);
 }
 
 .card-list .card-link .card-image{
