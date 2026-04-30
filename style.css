@@ -188,7 +188,7 @@ body {
 
     .navBar ul a {font-size: clamp(5px, 5vw, 11px);}
 
-     /* ----------------- Web headers section ------------------- */
+     /* ----------------- Mobile headers section ------------------- */
 
      .container {
         grid-row: 1;
