@@ -197,6 +197,28 @@ body {
         margin-top: clamp(0px, 4vh, 1px);
     }
 
+    .button-container{
+        grid-row: 3;
+        border-top: 1px solid rgb(230, 230, 230, 0.2);
+        margin-top: clamp(10px, 15vw, 20px);
+
+
+    }
+
+    .button{
+        margin-left: clamp(1px, 1vw, 10px);
+        margin-top: clamp(2px, 5vw, 20px);
+        padding: clamp(2px, 5vw, 8px) clamp(2px, 5vw, 15px);
+        font-size: clamp(5px, 5vw, 12px);
+    }
+
+    button:active{
+        transform: scale(0.5);
+        background-color: #5d7454;
+        color: white;
+
+    }
+
 
 }
 
