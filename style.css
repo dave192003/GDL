@@ -83,15 +83,16 @@ body {
     height: auto;
     width: clamp(30px, 38vw, 800px);
     padding-left: clamp(10px, 40vw, 80px);
-    padding-top: 58px
+    padding-top: 58px;
 }
 
 .my-image {
     width: 100%;
     height: auto;
-    border-radius: 50%;
-    border: 1px solid #ffbd59;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 10%;
+    border: 3px solid #ffbd59;
+    box-shadow: o 10px 25px rgba(0, 0, 0, 0.4);
+    background: white;
 }
 
  /* ----------------- button section ------------------- */
