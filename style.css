@@ -7,7 +7,7 @@ body {
     min-height: 100vw;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr .92fr;
     grid-template-rows: 1fr 1fr ;
     align-content: start;
     padding: 70px 20px 20px;
@@ -34,7 +34,7 @@ body {
     flex-direction: column;
     height: auto;
     max-width: 700px;
-    gap: 2px;
+    gap: clamp(1px, -2vw, 10px);
     padding-left: 30px;
 
 }
@@ -54,7 +54,10 @@ body {
 
     color: white;
     font-family: "Gagalin";
-    font-size: clamp(18px, 7vw, 88px);
+    font-size: clamp(18px, 7vw, 200px);
+    line-height: clamp(2px, 7vw, 120px);
+    padding-top: 20px;
+    padding-bottom: clamp(2px, 5vw, 5px);
 
 }
 
@@ -74,7 +77,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background: rgb(143, 140, 140,0.5);
-    width: 11rem;
+    width: clamp(5px, 14vw, 175px);
     padding-left: 10px;
     border-radius: 15px;
 }
@@ -86,7 +89,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background: rgba(253, 212, 77, 0.3);
-    width: 7rem;
+     width: clamp(5px, 9vw, 115px);
     padding-left: 10px;
     border-radius: 15px;
 }
@@ -99,7 +102,7 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: clamp(30px, 38vw, 800px);
+    width: clamp(30px, 38vw, 650px);
     padding-left: clamp(10px, 40vw, 80px);
     padding-top: 58px;
 }
