@@ -102,7 +102,7 @@ body {
     flex-direction: column;
     height: auto;
     width: clamp(30px, 38vw, 650px);
-    padding-left: clamp(10px, 40vw, 80px);
+    padding-left: clamp(10px, 40vw, 195px);
     padding-top: 58px;
 
 }
