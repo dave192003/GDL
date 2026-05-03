@@ -118,12 +118,6 @@ body {
 
  /* ----------------- button section ------------------- */
 
-.button-container{
-    grid-column: 1 / -1;
-    grid-row: 2;
-    
-}
-
 .button{
     background-color: #f5eee4;
     border:4px solid #ffbd59;
