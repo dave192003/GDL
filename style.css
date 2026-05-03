@@ -159,7 +159,7 @@ body {
 
 .logo {
     font-size: clamp(5px, 2vw, 20px);
-    color: #1b5802;
+    color: #131210;
     font-family: "Gagalin";
     margin-left: clamp(1px, 2vw, 70px);
     margin-top: clamp(5px, 4vh, 2px);
