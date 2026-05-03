@@ -79,6 +79,18 @@ body {
     border-radius: 15px;
 }
 
+.artist-badge-2{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: clamp(5px, 1.2vw, 16px);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: rgba(253, 212, 77, 0.3);
+    width: 7rem;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
  /* ----------------- main image section ------------------- */
 
 .image-box {
