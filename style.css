@@ -58,7 +58,8 @@ body {
 
 }
 
-.box {
+.box {  
+    grid-template-rows: 1fr 1fr;
     background-color: transparent;
     width: clamp(20px, 40vw, 640px);
     top: clamp(10px, 100vh, 150px);
@@ -66,6 +67,7 @@ body {
 }
 
 .description {
+    grid-row: 1;
     text-align: justify;
     line-height: 1.5;
     font-size: clamp(5px, 1.2vw, 22px);
