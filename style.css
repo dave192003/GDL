@@ -301,8 +301,12 @@ body {
 
     .header {font-size: clamp(1px, 7vw, 20px);}
 
-    .name-header {font-size: clamp(2px, 18vw, 90px);}
-
+    .name-header {
+        font-size: clamp(2px, 18vw, 90px);
+        line-height: clamp(2px, 17vw,60px);
+        padding-top: 20px;
+        padding-bottom: clamp(2px, 5vw, 5px);
+    }
     .image-box {
         grid-row: 2;
         grid-column: 1;
