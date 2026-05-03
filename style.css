@@ -8,7 +8,6 @@ body {
     height: auto;
     display: grid;
     grid-template-columns: 1fr .92fr;
-    grid-template-rows: 1fr 1fr ;
     align-content: start;
     padding: 70px 20px 20px;
 
@@ -105,7 +104,9 @@ body {
     width: clamp(30px, 38vw, 650px);
     padding-left: clamp(10px, 40vw, 80px);
     padding-top: 58px;
+
 }
+
 
 .my-image {
     width: 100%;
@@ -196,10 +197,9 @@ body {
 
 .artwork-container{
     grid-column: 1 / -1;
-    grid-row: 4;
     display: grid;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 200px;
     margin-left: -54px;
     font-family: "Roboto", sans-serif;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
