@@ -119,15 +119,13 @@ body {
  /* ----------------- button section ------------------- */
 
 .button{
-    background-color: #22201e;
+    background-color: #ada9a5;
     border:2px solid #ffbd59;
     border-radius: 40px;
     font-size: clamp(6px, 1.3vw, 30px);
     margin-left: clamp(1px, 4.7vw, 0px);
     margin-top: clamp(6px, 7vw, 200px);
-       
-    
-    color:#ffffff;
+    color:#0c0b0b;
     font-weight: bold;
     width: clamp(20px, 17vw, 300px);
     height:  clamp(10px, 3vw, 200px);
