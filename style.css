@@ -183,7 +183,7 @@ body {
 .navBar a {
     display: inline-block;
     text-decoration: none;
-    color: #1b5802;
+    color: #0e2007;
     font-size: clamp(2px, 1.5vw, 20px);
     padding: 6px;
 }
