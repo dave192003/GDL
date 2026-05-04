@@ -339,9 +339,9 @@ body {
     .button{
         margin-left: clamp(1px, 1vw, 10px);
         margin-top: clamp(2px, 5vw, 20px);
-        font-size: clamp(6px, 1vw, 20px);
-        width: clamp(20px, 30vw, 80px);
-        height:  clamp(10px, 3vw, 200px);
+        font-size: clamp(10px, 1vw, 20px);
+        width: clamp(40px, 35vw, 120px);
+        height:  clamp(10px, 6vw, 200px);
     }
 
     button:active{
@@ -350,14 +350,8 @@ body {
         color: white;
 
     }
-.box {
-    
-    width: clamp(20px, 40vw, 640px);
-    top: clamp(10px, 100vh, 150px);
-    left: clamp(1px, 10vw, 98px);
-    column-gap: 1px;
-    
-}
+
+
 
 .artist-badge-1 {
     line-height: 1.8;
@@ -394,6 +388,8 @@ body {
     margin-left: clamp(-14px, -454vw, 20px);
     box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.2); 
 }
+
+
 
 }
 
