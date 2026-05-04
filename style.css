@@ -85,7 +85,6 @@ body {
 
 .artist-badge-2{
     grid-row: 2;
-    grid-column:1;
     text-align: justify;
     line-height: 1.5;
     font-size: clamp(5px, 1.2vw, 16px);
@@ -104,8 +103,8 @@ body {
     line-height: 1.5;
     font-size: clamp(5px, 1.2vw, 16px);
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background: rgba(253, 212, 77, 0.3);
+    color: rgb(53, 46, 46);
+    background: rgba(255, 255, 255, 0.692);
     width: clamp(5px, 9vw, 115px);
     padding-left: 10px;
     border-radius: 15px;
