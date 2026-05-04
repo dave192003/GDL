@@ -4,10 +4,10 @@
 body {
     background: linear-gradient(#080808, #9aa4a0);
     margin: 0;
-    min-height: 100vw;
+    min-height: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr .92fr;
+    grid-template-columns: 1fr 1fr;
     align-content: start;
     padding: 70px 20px 20px;
 
@@ -33,8 +33,8 @@ body {
     flex-direction: column;
     height: auto;
     max-width: 700px;
-    gap: clamp(1px, -2vw, 10px);
-    padding-left: 30px;
+    gap: clamp(1px, 2vw, 15px);
+    padding-left: clamp(10px,2vw, 30px);
 
 }
 
@@ -68,6 +68,7 @@ body {
     width: clamp(20px, 40vw, 640px);
     top: clamp(10px, 100vh, 150px);
     left: clamp(1px, 10vw, 98px);
+    
 }
 
 .artist-badge-1 {
@@ -105,7 +106,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(53, 46, 46);
     background: rgba(255, 255, 255, 0.692);
-    width: clamp(5px, 9vw, 115px);
+    width: clamp(5px, 9vw, 96px);
     padding-left: 10px;
     border-radius: 15px;
 }
@@ -114,12 +115,12 @@ body {
 
 .image-box {
     grid-column: 2;
-    justify-self: start;
+    justify-self: center;
     display: flex;
     flex-direction: column;
     height: auto;
-    width: clamp(30px, 38vw, 650px);
-    padding-left: clamp(10px, 2vw, 195px);
+    width: clamp(30px, 38vw, 900px);
+    padding-left: clamp(6px, 4vw, 240px);
     padding-top: 58px;
 
 }
@@ -142,7 +143,7 @@ body {
     border-radius: 40px;
     font-size: clamp(6px, 1.3vw, 30px);
     margin-left: clamp(1px, 4.7vw, 0px);
-    margin-top: clamp(6px, 7vw, 200px);
+    margin-top: clamp(22px, 2vw,200px);
     color:#0c0b0b;
     font-weight: bold;
     width: clamp(20px, 17vw, 300px);
@@ -349,7 +350,41 @@ body {
         color: white;
 
     }
+.box {
+    
+    width: clamp(20px, 40vw, 640px);
+    top: clamp(10px, 100vh, 150px);
+    left: clamp(1px, 10vw, 98px);
+    column-gap: 14px;
+    
+}
 
+.artist-badge-1 {
+    line-height: 1.8;
+    width: clamp(8px, 29vw, 175px);
+    padding-left: 10px;
+    border-radius: 15px;
+    font-size: clamp(9px, 1.2vw, 16px);
+}
+
+.artist-badge-2{
+    line-height: 1.8;
+    font-size: clamp(9px, 1.2vw, 16px);
+    width: clamp(5px, 20vw, 115px);
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.artist-badge-3{
+
+    line-height: 1.8;
+    font-size: clamp(9px, 1.2vw, 16px);
+    width: clamp(5px, 16vw, 115px);
+    padding-left: 10px;
+    border-radius: 15px;
+
+
+}
 
 }
 
