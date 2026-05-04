@@ -234,7 +234,7 @@ body {
     border-radius: 12px;
     text-decoration: none;
     margin-left: clamp(5px, 1vw, 1px);
-    box-shadow: 10px 10px 10px  rgba(21, 71, 40, 0.8);
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.8);
     object-fit: cover;
     aspect-ratio: 1/1;
 }
@@ -355,7 +355,7 @@ body {
     width: clamp(20px, 40vw, 640px);
     top: clamp(10px, 100vh, 150px);
     left: clamp(1px, 10vw, 98px);
-    column-gap: 14px;
+    column-gap: 1px;
     
 }
 
@@ -383,9 +383,17 @@ body {
     padding-left: 10px;
     border-radius: 15px;
 
+}
 
+.artwork-container{
+    margin-top: clamp(30px, 30vw, 70px);
+}
+
+.card-list .card-item .card-link{
+    width: clamp(20px, 72vw, 560px);
+    margin-left: clamp(-14px, -454vw, 20px);
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.2); 
 }
 
 }
-
 
