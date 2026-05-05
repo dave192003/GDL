@@ -244,7 +244,7 @@ body {
     margin-left: -63px;
     border-radius: 12px;
     text-decoration: none;
-    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.8);
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.3);
     object-fit: cover;
     aspect-ratio: 1/1;
 }
