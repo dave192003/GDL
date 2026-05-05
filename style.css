@@ -68,6 +68,10 @@ body {
     width: clamp(20px, 40vw, 640px);
     top: clamp(10px, 100vh, 150px);
     left: clamp(1px, 10vw, 98px);
+    background: rgb(247, 242, 242, 0.1);
+    border: 0px solid white;
+    border-radius: 11px;
+    padding-left: clamp(3px, 10vw, 20px);
     
     
 }
@@ -82,7 +86,7 @@ body {
     background: rgb(143, 140, 140,0.5);
     width: clamp(5px, 14vw, 175px);
     padding-left: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .artist-badge-2{
@@ -95,7 +99,7 @@ body {
     background: rgba(253, 212, 77, 0.3);
     width: clamp(5px, 9vw, 115px);
     padding-left: 10px;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 
 .artist-badge-3{
@@ -109,7 +113,7 @@ body {
     background: rgba(255, 255, 255, 0.692);
     width: clamp(5px, 9vw, 96px);
     padding-left: 10px;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 
  /* ----------------- main image section ------------------- */
