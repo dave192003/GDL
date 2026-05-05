@@ -70,7 +70,7 @@ body {
     top: clamp(10px, 100vh, 150px);
     left: clamp(1px, 10vw, 98px);
     background: rgb(247, 242, 242, 0.1);
-    border: 0px solid white;
+    border: 0.3px solid rgba(255, 255, 255, 0.233);
     border-radius: 11px;
     padding-left: clamp(3px, 10vw, 20px);
     
