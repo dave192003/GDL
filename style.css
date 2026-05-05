@@ -216,7 +216,7 @@ body {
 }
 
 .navBar a:hover {
-    background-color: #77946c;
+    background-color: #000000;
     border-radius: 50px;
     color: white;
 }
@@ -232,6 +232,7 @@ body {
     gap: 2px;
     background: rgb(243, 238, 238, 0.1);
     border-radius: 20px;
+    
 
    
 }
