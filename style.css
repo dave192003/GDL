@@ -362,13 +362,24 @@ body {
 
     }
 
+.box{
+    background: rgba(253, 253, 253, 0.2);
+    border: 0px solid white;
+    border-radius: 11px;
+    padding-left: clamp(3px, 10vw, 15px);
+    padding-top: clamp(3px, 10vw, 5px);
+    padding-bottom: clamp(3px, 10vw, 5px);
+
+
+}
+
 
 
 .artist-badge-1 {
     line-height: 1.8;
     width: clamp(8px, 29vw, 175px);
     padding-left: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     font-size: clamp(9px, 1.2vw, 16px);
 }
 
@@ -377,7 +388,7 @@ body {
     font-size: clamp(9px, 1.2vw, 16px);
     width: clamp(5px, 20vw, 115px);
     padding-left: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .artist-badge-3{
@@ -386,7 +397,7 @@ body {
     font-size: clamp(9px, 1.2vw, 16px);
     width: clamp(5px, 16vw, 115px);
     padding-left: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
 
 }
 
