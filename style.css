@@ -57,6 +57,7 @@ body {
     line-height: clamp(2px, 7vw, 120px);
     padding-top: 20px;
     padding-bottom: clamp(2px, 5vw, 5px);
+    letter-spacing: clamp(2px, 2vw, 5px);
 
 }
 
@@ -315,6 +316,7 @@ body {
         line-height: clamp(2px, 17vw,60px);
         padding-top: 20px;
         padding-bottom: clamp(2px, 5vw, 5px);
+        letter-spacing: clamp(2px, 2vw, 2px);
     }
     .image-box {
         grid-row: 2;
