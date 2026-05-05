@@ -226,10 +226,12 @@ body {
     display: grid;
     width: 100%;
     margin-top: 200px;
-    margin-left: -54px;
+    margin-left: 1px;
     font-family: "Roboto", sans-serif;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 2px;
+    background: rgb(243, 238, 238, 0.1);
+    border-radius: 20px;
 
    
 }
