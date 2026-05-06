@@ -369,6 +369,7 @@ body {
         height:  clamp(10px, 8vw, 200px);
         z-index: 5;
         border-radius: 5px;
+        border: none;
 
 
     }
