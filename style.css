@@ -10,6 +10,7 @@ body {
     grid-template-columns: 1fr 1fr;
     align-content: start;
     padding: 70px 20px 20px;
+   
 
 }
 
@@ -284,6 +285,11 @@ body {
     margin-left: -3px;
 }
 
+.card-title{
+    color: black;
+    font-size: 18px;
+}
+
 
 
 
@@ -438,5 +444,8 @@ body {
     padding: 18px;
     margin-left: -60px;
 }
+
+
+
 }
 
