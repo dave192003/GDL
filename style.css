@@ -408,17 +408,15 @@ body {
 }
 
 .artwork-container{
-    width: clamp(30px, 50vw, 60px);
-    margin-top: clamp(30px, 30vw, 70px);
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 1px;
 }
 
 .card-list .card-item .card-link{
-    width: clamp(100px, 75vw, 480px);
-    margin-left: clamp(-14px, -454vw, 20px);
-    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    padding: 18px;
+    margin-left: -60px;
 }
-
-
-
 }
 
