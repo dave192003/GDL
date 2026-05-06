@@ -336,6 +336,9 @@ body {
         margin-top: -45px;
     }
 
+    .my-image{
+        border-radius: 15px;
+    }
     .box {width: clamp(200px, 88vw, 480px);} /* container box for description */
 
     .description {
@@ -360,9 +363,10 @@ body {
         margin-left: clamp(1px, 1vw, 10px);
         margin-top: clamp(2px, 5vw,80px);
         font-size: clamp(6px, 2.4vw, 50px);
-        width: clamp(20px, 30vw, 150px);
-        height:  clamp(10px, 6vw, 200px);
+        width: clamp(20px, 37vw, 150px);
+        height:  clamp(10px, 8vw, 200px);
         z-index: 5;
+        border-radius: 5px;
 
 
     }
