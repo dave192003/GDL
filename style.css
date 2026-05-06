@@ -146,16 +146,16 @@ body {
  /* ----------------- button section ------------------- */
 
 .button{
-    background-color: #ada9a5;
-    border:2px solid #ffbd59;
-    border-radius: 40px;
-    font-size: clamp(6px, 1.3vw, 30px);
+    
+    background-color: #ffbd59;
+    border-radius: 10px;
+    font-size: clamp(6px, 1.7vw, 30px);
     margin-left: clamp(1px, 4.7vw, 0px);
     margin-top: clamp(22px, 2vw,200px);
-    color:#0c0b0b;
+    color:#000000;
     font-weight: bold;
-    width: clamp(20px, 17vw, 300px);
-    height:  clamp(10px, 3vw, 200px);
+    width: clamp(20px, 19vw, 310px);
+    height:  clamp(10px, 4vw, 200px);
     box-shadow:  3px 5px 20px rgba(0,0,0.2, 0.4);
    
 }
@@ -163,7 +163,7 @@ body {
 .button:hover{
     transform:scale(1.1);
     background-color: #fcfcfc;
-    color: rgb(8, 8, 8);
+    color: #ffbd59;
     transition: transform 0.5s ease, background-color 0.2s, color 0.2s;
    
 }
@@ -348,12 +348,12 @@ body {
     /* ----------------- button section ------------------- */
 
     .button{
-
-        margin-left: clamp(1px, 1vw, 10px);
-        margin-top: clamp(2px, 5vw,80px);
-        font-size: clamp(6px, 2.4vw, 50px);
-        width: clamp(20px, 30vw, 150px);
-        height:  clamp(10px, 6vw, 200px);
+        position: absolute;
+        margin-left: clamp(1px, 2vw, 10px);
+        margin-top: clamp(650px, 120vw,780px);
+        font-size: clamp(6px, 3vw, 50px);
+        width: clamp(20px, 35vw, 160px);
+        height:  clamp(10px, 8vw, 200px);
         z-index: 5;
 
 
