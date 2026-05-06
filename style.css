@@ -240,7 +240,7 @@ body {
 .card-list .card-item .card-link{
     width: 100%;
     display: block;
-    background: rgb(255, 255, 255);
+    background: rgb(221, 223, 221);
     padding: 18px;
     margin-left: -60px;
     border-radius: 25px;
@@ -272,8 +272,10 @@ body {
     
 }
 .card-list .card-item .card-link .badge{
+    display: flex;
+    justify-content: center;
     background: rgba(14, 11, 11, 0.116);
-    color: #999999;
+    color: #817f7f;
     font-size: 10px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.329);
