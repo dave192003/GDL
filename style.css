@@ -243,7 +243,7 @@ body {
     background: rgb(255, 255, 255);
     padding: 18px;
     margin-left: -60px;
-    border-radius: 16px;
+    border-radius: 25px;
     text-decoration: none;
     box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.3);
     object-fit: cover;
@@ -252,9 +252,9 @@ body {
 
 .card-list .card-link .card-image{
     border-radius: 16px;
-    width: 100%;
+    width: 104.5%;
     height: 100%;
-    margin: -5px -5px;
+    margin: -6px -5px;
     
 }
 
