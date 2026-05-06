@@ -361,9 +361,9 @@ body {
     .button{
         
         position: absolute;
-        bottom: -89px;
+        bottom: clamp(-89px, -7vw, 2px);
         margin-left: clamp(1px, 1vw, 10px);
-        margin-top: clamp(2px, 5vw,80px);
+        top: clamp(100px, 300vw, 700px);
         font-size: clamp(6px, 2.4vw, 50px);
         width: clamp(20px, 37vw, 150px);
         height:  clamp(10px, 8vw, 200px);
