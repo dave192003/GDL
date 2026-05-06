@@ -313,7 +313,7 @@ body {
         padding-left: 1px;
         justify-items: center;
         margin-top: -50px;
-        margin-left: -3px;
+        margin-left: -1px;
 
     }
 
@@ -334,12 +334,14 @@ body {
         justify-self: center;
         padding-left: 0;
         margin-top: -45px;
+        margin-left: clamp(-34px, -3vw, 2px);
     }
 
     .my-image{
         border-radius: 15px;
+        width: clamp(20px, 87vw, 550px);
     }
-    .box {width: clamp(200px, 88vw, 480px);} /* container box for description */
+    .box {width: clamp(100px, 90vw, 500px);} /* container box for description */
 
     .description {
         font-size: clamp(10px, 12vw, 13px);
