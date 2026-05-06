@@ -272,11 +272,12 @@ body {
     
 }
 .card-list .card-item .card-link .badge{
-    background: rgb(73, 233, 73, 0.3);
-    width: 110px;
-    border-radius: 10px;
-    color: rgb(25, 94, 16);
-    padding-left: 5px;
+    background: rgba(14, 11, 11, 0.116);
+    color: #999999;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 5px 12px;
+    width: 80px;
 }
 
 
