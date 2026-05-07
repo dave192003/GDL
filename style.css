@@ -385,7 +385,7 @@ body {
         bottom: clamp(-89px, -7vw, 2px);
         margin-left: clamp(1px, 1vw, 10px);
         top: clamp(100px, 300vw, 700px);
-        font-size: clamp(6px, 2.4vw, 50px);
+        font-size: clamp(6px, 3.3vw, 50px);
         width: clamp(20px, 37vw, 150px);
         height:  clamp(10px, 8vw, 200px);
         z-index: 5;
