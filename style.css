@@ -69,10 +69,9 @@ body {
     background-color: transparent;
     place-items: center;
     gap: 2px;
-    width: clamp(20px, 35vw, 630px);
+    width: clamp(20px, 36vw, 630px);
     top: clamp(10px, 100vh, 150px);
     left: clamp(1px, 10vw, 98px);
-    
     border: 0.3px solid rgba(255, 255, 255, 0.233);
     border-radius: 11px;
     padding-left: clamp(3px, 10vw, 20px);
@@ -89,11 +88,11 @@ body {
     font-family: 'Courier Prime', monospace;
     color: rgba(255, 255, 255, 0.315);
     background: rgb(143, 140, 140,0.5);
-    width: clamp(5px, 14vw, 165px);
+    width: clamp(5px, 20vw, 165px);
     padding-left: 7px;
     padding-top: 2px;
     border-radius: 5px;
-    margin-left: -04px;
+    margin-left: -9px;
 }
 
 .artist-badge-2{
@@ -106,9 +105,9 @@ body {
     color: rgba(255, 255, 255, 0.308);
     background: rgba(253, 212, 77, 0.3);
     width: clamp(5px, 9vw, 104px);
-    padding-left: 10px; 
+    padding-left: 6px; 
     padding-top: 2px;
-    margin-left: 15px;
+    margin-left: 4px;
     border-radius: 5px;
 }
 
@@ -122,9 +121,10 @@ body {
     color: rgba(63, 57, 57, 0.514);
     background: rgba(255, 255, 255, 0.692);
     width: clamp(5px, 9vw, 96px);
-    padding-left: 10px;
+    padding-left: 6px;
     padding-top: 2px;
     border-radius: 5px;
+    margin-left: -6px;
 }
 
  /* ----------------- main image section ------------------- */
