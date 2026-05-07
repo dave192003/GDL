@@ -64,10 +64,11 @@ body {
 
 .box {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: transparent;
-    width: clamp(20px, 40vw, 640px);
+    place-items: center;
+    gap: 2px;
+    width: clamp(20px, 35vw, 630px);
     top: clamp(10px, 100vh, 150px);
     left: clamp(1px, 10vw, 98px);
     background: rgb(247, 242, 242, 0.1);
@@ -80,33 +81,37 @@ body {
 
 .artist-badge-1 {
     grid-row: 1;
+    grid-column: 1;
     text-align: justify;
     line-height: 1.5;
     font-size: clamp(5px, 1.2vw, 16px);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background: rgb(143, 140, 140,0.5);
-    width: clamp(5px, 14vw, 175px);
+    width: clamp(5px, 14vw, 165px);
     padding-left: 10px;
     border-radius: 5px;
+    margin-left: -04px;
 }
 
 .artist-badge-2{
-    grid-row: 2;
+    grid-row: 1;
+    grid-column: 2;
     text-align: justify;
     line-height: 1.5;
     font-size: clamp(5px, 1.2vw, 16px);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background: rgba(253, 212, 77, 0.3);
-    width: clamp(5px, 9vw, 115px);
+    width: clamp(5px, 9vw, 104px);
     padding-left: 10px;
+    margin-left: 15px;
     border-radius: 7px;
 }
 
 .artist-badge-3{
     grid-row: 1;
-    grid-column: 2;
+    grid-column: 3;
     text-align: justify;
     line-height: 1.5;
     font-size: clamp(5px, 1.2vw, 16px);
