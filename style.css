@@ -315,6 +315,19 @@ body {
     color: white;
     border-top: 1px solid rgba(255, 255, 255, 0.329);
     margin-top: 30px;
+    font-family: 'Courier Prime', monospace;
+    gap: 10px;
+
+}
+
+.FA-main-header{
+    font-size: clamp(10px, 11vw, 20px);
+
+}
+
+.FA-intro-header{
+    font-size: clamp(10px, 11vw, 12px);
+    color: rgba(255, 255, 255, 0.411);
 }
 
 
