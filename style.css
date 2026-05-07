@@ -71,7 +71,7 @@ body {
     width: clamp(20px, 35vw, 630px);
     top: clamp(10px, 100vh, 150px);
     left: clamp(1px, 10vw, 98px);
-    background: rgb(247, 242, 242, 0.1);
+    
     border: 0.3px solid rgba(255, 255, 255, 0.233);
     border-radius: 11px;
     padding-left: clamp(3px, 10vw, 20px);
@@ -83,13 +83,14 @@ body {
     grid-row: 1;
     grid-column: 1;
     text-align: justify;
-    line-height: 1.5;
-    font-size: clamp(5px, 1.2vw, 16px);
-    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: clamp(5px, 1.2vw, 11px);
+    font-family: 'Courier Prime', monospace;
     color: rgba(255, 255, 255, 0.315);
     background: rgb(143, 140, 140,0.5);
     width: clamp(5px, 14vw, 165px);
-    padding-left: 10px;
+    padding-left: 7px;
+    padding-top: 2px;
     border-radius: 5px;
     margin-left: -04px;
 }
@@ -98,29 +99,31 @@ body {
     grid-row: 1;
     grid-column: 2;
     text-align: justify;
-    line-height: 1.5;
-    font-size: clamp(5px, 1.2vw, 16px);
-    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: clamp(5px, 1.2vw, 11px);
+    font-family: 'Courier Prime', monospace;
     color: rgba(255, 255, 255, 0.308);
     background: rgba(253, 212, 77, 0.3);
     width: clamp(5px, 9vw, 104px);
-    padding-left: 10px;
+    padding-left: 10px; 
+    padding-top: 2px;
     margin-left: 15px;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .artist-badge-3{
     grid-row: 1;
     grid-column: 3;
     text-align: justify;
-    line-height: 1.5;
-    font-size: clamp(5px, 1.2vw, 16px);
-    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: clamp(5px, 1.2vw, 11px);
+    font-family: 'Courier Prime', monospace;
     color: rgba(63, 57, 57, 0.514);
     background: rgba(255, 255, 255, 0.692);
     width: clamp(5px, 9vw, 96px);
     padding-left: 10px;
-    border-radius: 7px;
+    padding-top: 2px;
+    border-radius: 5px;
 }
 
  /* ----------------- main image section ------------------- */
