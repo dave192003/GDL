@@ -338,6 +338,7 @@ body {
         justify-items: center;
         margin-top: -50px;
         margin-left: -1px;
+        border: none;
 
     }
 
@@ -350,6 +351,7 @@ body {
         padding-bottom: clamp(2px, 5vw, 5px);
         letter-spacing: clamp(2px, 2vw, 2px);
     }
+
     .image-box {
         grid-row: 3;
         grid-column: 1;
@@ -366,11 +368,6 @@ body {
         width: clamp(20px, 87vw, 550px);
     }
     .box {width: clamp(100px, 90vw, 500px);} /* container box for description */
-
-    .description {
-        font-size: clamp(10px, 12vw, 13px);
-        text-align: justify;
-    }
 
 
     .navBar .logo {
@@ -422,27 +419,30 @@ body {
 
 .artist-badge-1 {
     line-height: 1.8;
-    width: clamp(8px, 29vw, 175px);
+    width: clamp(8px, 32vw, 175px);
+    margin-left: -2px;
     padding-left: 10px;
     border-radius: 5px;
-    font-size: clamp(9px, 1.2vw, 16px);
+    font-size: clamp(8px, 1.2vw, 16px);
 }
 
 .artist-badge-2{
     line-height: 1.8;
-    font-size: clamp(9px, 1.2vw, 16px);
-    width: clamp(5px, 20vw, 115px);
-    padding-left: 10px;
+    font-size: clamp(8px, 1.2vw, 16px);
+    width: clamp(5px, 19vw, 115px);
+    padding-left: 7px;
+    margin-left: -3px;
     border-radius: 5px;
 }
 
 .artist-badge-3{
 
-    line-height: 1.8;
-    font-size: clamp(9px, 1.2vw, 16px);
-    width: clamp(5px, 16vw, 115px);
+    line-height: 1.7;
+    font-size: clamp(8px, 1.2vw, 11px);
+    width: clamp(5px, 19vw, 115px);
     padding-left: 10px;
     border-radius: 5px;
+    margin-left: -20px;
 
 }
 
