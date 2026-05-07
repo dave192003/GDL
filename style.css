@@ -221,7 +221,8 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #0e2007;
-    font-size: clamp(2px, 1.5vw, 20px);
+    font-family: 'Courier Prime', monospace;
+    font-size: clamp(2px, 1.5vw, 15px);
     padding: 6px;
 }
 
@@ -237,7 +238,7 @@ body {
     width: 100%;
     margin-top: 200px;
     margin-left: 1px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Courier Prime', monospace;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 2px;
     background: rgb(243, 238, 238, 0.1);
