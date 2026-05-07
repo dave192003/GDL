@@ -237,13 +237,15 @@ body {
     grid-column: 1 / -1;
     display: grid;
     width: 100%;
-    margin-top: 200px;
-    margin-left: 1px;
+    margin-top: 3px;
+    margin-left: 0px;
     font-family: 'Courier Prime', monospace;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 2px;
     background: rgb(243, 238, 238, 0.1);
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.445);
     
 
    
@@ -320,7 +322,7 @@ body {
     margin-top: 30px;
     font-family: 'Courier Prime', monospace;
     gap: 10px;
-    background: rgba(255, 255, 255, 0.171);
+    background: rgba(255, 255, 255, 0.137);
 
 }
 
