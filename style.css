@@ -157,6 +157,7 @@ body {
 .button{
 
     background-color: #ffbd59;
+    border: none;
     border-radius: 40px;
     font-size: clamp(6px, 1.6vw, 30px);
     margin-left: clamp(1px, 4.7vw, 0px);
