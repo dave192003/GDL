@@ -222,8 +222,9 @@ body {
     text-decoration: none;
     color: #0e2007;
     font-family: 'Courier Prime', monospace;
-    font-size: clamp(2px, 1.5vw, 15px);
-    padding: 6px;
+    font-size: clamp(2px, 1.5vw, 16px);
+    padding: 6px 2px;
+    margin-top: 4px;
 }
 
 .navBar a:hover {
