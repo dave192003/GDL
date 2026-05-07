@@ -264,10 +264,11 @@ body {
 }
 
 .card-list .card-link .card-image{
-    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     width: 104.5%;
     height: 100%;
-    margin: -6px -5px;
+    margin: -7px -7px;
     
 }
 
@@ -278,7 +279,7 @@ body {
 }
 
 .card-list .card-item .card-link .card-button:hover{
-    background: rgb(55, 167, 70, 0.5);
+    background: rgba(223, 186, 64, 0.5);
     transform: rotate(150deg) scale(1.2);
     transition: transform 0.2s ease;
    
