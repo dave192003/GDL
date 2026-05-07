@@ -405,7 +405,10 @@ body {
 .box{
     background: rgba(253, 253, 253, 0.2);
     border: 0px solid white;
-    border-radius: 11px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     width: clamp(100px, 84vw, 500px);
     padding-left: clamp(3px, 10vw, 15px);
     padding-top: clamp(3px, 10vw, 5px);
@@ -431,7 +434,7 @@ body {
     font-size: clamp(8px, 1.2vw, 16px);
     width: clamp(5px, 19vw, 115px);
     padding-left: 7px;
-    margin-left: -3px;
+    margin-left: -5px;
     border-radius: 5px;
 }
 
