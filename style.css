@@ -312,18 +312,19 @@ body {
     align-items: center;
     width: 100%;
     padding-top: clamp(20px, 30vw, 50px);
+    padding-bottom: clamp(20px, 30vw, 50px);
     color: white;
-    border-top: 1px solid rgba(255, 255, 255, 0.329);
+    border: 1px solid rgba(255, 255, 255, 0.329);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     margin-top: 30px;
     font-family: 'Courier Prime', monospace;
     gap: 10px;
+    background: rgba(255, 255, 255, 0.171);
 
 }
 
-.FA-main-header{
-    font-size: clamp(10px, 11vw, 20px);
-
-}
+.FA-main-header{font-size: clamp(10px, 11vw, 20px);}
 
 .FA-intro-header{
     font-size: clamp(10px, 11vw, 12px);
