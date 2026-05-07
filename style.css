@@ -28,7 +28,7 @@ body {
 
 
 .container {
-    grid-column: 1;
+    grid-column: 1 / 2;
     justify-self: start;
     display: flex;
     flex-direction: column;
@@ -36,6 +36,7 @@ body {
     max-width: 700px;
     gap: clamp(1px, 2vw, 15px);
     padding-left: clamp(10px,2vw, 30px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.404);
 
 }
 
