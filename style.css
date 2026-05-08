@@ -87,11 +87,11 @@ body {
     font-family: 'Courier Prime', monospace;
     color: rgba(255, 255, 255, 0.315);
     background: rgb(143, 140, 140,0.5);
-    width: clamp(5px, 15vw, 175px);
-    padding-left: clamp(3px, -2vw, 12px);
+    width: clamp(5px, 15vw, 180px);
+    padding-left: clamp(1px, 1vw, 15px);
     padding-top: 2px;
     border-radius: 5px;
-    margin-left: clamp(-12px, -5vw, -12px);;
+    margin-left: clamp(-12px, -26vw, 6px);;
 }
 
 .artist-badge-2{
