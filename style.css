@@ -462,7 +462,7 @@ body {
 .artist-badge-2{
     line-height: 1.8;
     font-size: clamp(8px, 1.2vw, 16px);
-    width: clamp(5px, 19vw, 115px);
+    width: clamp(5px, 20vw, 90px);
     padding-left: 7px;
     margin-left: -5px;
     border-radius: 5px;
@@ -472,7 +472,7 @@ body {
 
     line-height: 1.7;
     font-size: clamp(8px, 1.2vw, 11px);
-    width: clamp(5px, 19vw, 115px);
+    width: clamp(5px, 20vw, 90px);
     padding-left: 10px;
     border-radius: 5px;
     margin-left: -20px;
