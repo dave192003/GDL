@@ -509,7 +509,7 @@ body {
 .FA-main-header{font-size: clamp(2px, 3vw, 15px);}
 
 .FA-intro-header{
-    font-size: clamp(1px, 1.3vw, 12px);
+    font-size: clamp(3px, 1.5vw, 12px);
 }
 
 }
