@@ -328,9 +328,13 @@ body {
 
 .FA-main-header{font-size: clamp(2px, 2vw, 15px);}
 
+.FA-intro-container{
+    width: clamp(50px,  70vw, 900px);
+}
 .FA-intro-header{
-    font-size: clamp(-25px, 1.2vw, 12px);
+    font-size: clamp(-25px, 1.2vw, 15px);
     color: rgba(255, 255, 255, 0.411);
+    text-align: center;
 }
 
 
@@ -506,10 +510,10 @@ body {
     
 }
 
-.FA-main-header{font-size: clamp(2px, 3vw, 15px);}
+.FA-main-header{font-size: clamp(2px, 5vw, 15px);}
 
 .FA-intro-header{
-    font-size: clamp(3px, 1.5vw, 12px);
+    font-size: clamp(3px, 3vw, 12px);
 }
 
 }
