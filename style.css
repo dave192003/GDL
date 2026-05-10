@@ -247,7 +247,7 @@ body {
     background: rgb(243, 238, 238, 0.1);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.445);
+    
     
 
    
@@ -318,7 +318,7 @@ body {
     padding-top: clamp(10px, 20vw, 40px);
     padding-bottom: clamp(10px, 30vw, 40px);
     color: white;
-    border: 1px solid rgba(255, 255, 255, 0.329);
+   
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-top: 30px;
