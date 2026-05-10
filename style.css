@@ -64,24 +64,25 @@ body {
 
 .box {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     background-color: transparent;
-    place-items: center;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 2px;
-    width: clamp(20px, 36vw, 630px);
+    width: clamp(20px, 40vw, 630px);
     top: clamp(10px, 100vh, 150px);
     left: clamp(1px, 10vw, 98px);
     border: 0.3px solid rgba(255, 255, 255, 0.233);
     border-radius: 11px;
-    padding-left: clamp(3px, 10vw, 20px);
+    
+
     
     
 }
 
 .artist-badge-1 {
-    grid-row: 1;
-    grid-column: 1;
+    
     text-align: justify;
     line-height: 1.6;
     font-size: clamp(5px, 1vw, 11px);
@@ -92,13 +93,11 @@ body {
     padding-left: clamp(1px, 1vw, 15px);
     padding-top: 2px;
     border-radius: 5px;
-    margin-left: clamp(-12px, -26vw, 6px);;
+   
 }
 
 .artist-badge-2{
 
-    grid-row: 1;
-    grid-column: 2;
     text-align: justify;
     line-height: 1.6;
     font-size: clamp(5px, 1vw, 11px);
@@ -106,26 +105,24 @@ body {
     color: rgba(255, 255, 255, 0.308);
     background: rgba(253, 212, 77, 0.3);
     width: clamp(5px, 9vw, 104px);
-    padding-left: 3px; 
+    padding-left: 9px; 
     padding-top: 2px;
-    margin-left: clamp(1px, -1vw, 25px);;
     border-radius: 5px;
 }
 
 .artist-badge-3{
-    grid-row: 1;
-    grid-column: 3;
+    
     text-align: justify;
     line-height: 1.6;
     font-size: clamp(5px, 1vw, 11px);
     font-family: 'Courier Prime', monospace;
     color: rgba(63, 57, 57, 0.514);
     background: rgba(255, 255, 255, 0.692);
-    width: clamp(5px, 9vw, 96px);
-    padding-left: 4px;
+    width: clamp(5px, 9vw, 104px);
+    padding-left: 10px;
     padding-top: 2px;
     border-radius: 5px;
-    margin-left: clamp(-12px, -1vw, 1px);
+  
 }
 
  /* ----------------- main image section ------------------- */
