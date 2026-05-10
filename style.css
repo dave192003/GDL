@@ -258,7 +258,7 @@ body {
     margin-left: -60px;
     border-radius: 25px;
     text-decoration: none;
-    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.158);
     object-fit: cover;
     aspect-ratio: 1/1;
 }
