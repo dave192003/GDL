@@ -426,7 +426,7 @@ body {
     .button{
         
         position: fixed;
-        bottom: 3vh;
+        bottom: 2vh;
         margin-left: clamp(1px, 1vw, 10px);
         font-size: clamp(6px, 3.3vw, 50px);
         width: clamp(20px, 37vw, 150px);
