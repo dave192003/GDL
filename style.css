@@ -346,7 +346,7 @@ body {
 }
 
 /* MOBILE VIEW*/
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 320px) {
 
     body {
         grid-template-columns: 1fr;
@@ -427,7 +427,8 @@ body {
         z-index: 5;
         border-radius: 5px;
         border: none;
-        box-shadow: 0px 0px 25px 5px rgba(7, 6, 6, 0.459);
+        box-shadow: inset 0px 0px 2px 2px rgb(0, 0, 0),5px 5px 20px 2px rgba(0, 0, 0, 0.562);
+
 
 
     }
@@ -456,15 +457,15 @@ body {
 
 .artist-badge-1 {
     line-height: 1.8;
-    width: clamp(8px, 32vw, 175px); 
+    width: clamp(8px, 40vw, 130px); 
     border-radius: 5px;
-    font-size: clamp(8px, 1.2vw, 16px);
+    font-size: clamp(8px, 1vw, 16px);
 }
 
 .artist-badge-2{
     line-height: 1.8;
     font-size: clamp(8px, 1.2vw, 16px);
-    width: clamp(5px, 18vw, 90px);
+    width: clamp(5px, 25vw, 90px);
     border-radius: 5px;
 }
 
@@ -472,7 +473,7 @@ body {
 
     line-height: 1.7;
     font-size: clamp(8px, 1.2vw, 11px);
-    width: clamp(5px, 20vw, 90px);
+    width: clamp(5px, 25vw, 90px);
     border-radius: 5px;
 }
 
