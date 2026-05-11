@@ -437,7 +437,7 @@ body {
         width: clamp(20px, 37vw, 150px);
         height:  clamp(10px, 8vw, 200px);
         z-index: 5;
-        border-radius: 5px;
+        border-radius: 15px;
         border: none;
         box-shadow:5px 5px 20px 2px rgba(0, 0, 0, 0.562);
 
