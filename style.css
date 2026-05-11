@@ -13,7 +13,7 @@
 /* _________________________ BODY ______________________ */
 
 body {
-    background: linear-gradient(#080808, #9aa4a0);
+    background: linear-gradient(#3b3939, #9aa4a0);
     margin: 0;
     min-height: 100%;
     height: auto;
@@ -277,6 +277,7 @@ body {
     text-decoration: underline;
     font-size: 11px;
     position: flex;
+    
 
     
 }
@@ -284,8 +285,7 @@ body {
 .card-list .card-item .card-link .card-button:hover{
    
     background: rgba(223, 186, 64, 0.5);
-    transform: rotate(150deg) scale(1.2);
-    transition: transform 0.2s ease;
+
    
 }
 
@@ -415,7 +415,9 @@ body {
     /* _____________________________ Navigation Bar __________________________ */
     .navBar {padding: 5px 3px;}
 
-    .navBar ul a {font-size: clamp(5px, 5vw, 11px);}
+    .navBar ul a {
+        margin-right: 5px;
+        font-size: clamp(5px, 5vw, 11px);}
 
     .navBar .logo {
         font-size: clamp(2px, 5vw, 20px);
@@ -456,7 +458,7 @@ body {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     width: clamp(100px, 88.5vw, 500px);
-    border: 0.5px solid rgb(255, 251, 251, 0.1);
+    background: none;
 }
 
 
@@ -479,8 +481,9 @@ body {
 
     line-height: 1.7;
     font-size: clamp(8px, 1.2vw, 11px);
-    width: clamp(5px, 25vw, 80px);
+    width: clamp(5px, 24vw, 75px);
     border-radius: 5px;
+    
 }
 
 .artwork-container{
