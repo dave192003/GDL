@@ -58,7 +58,7 @@ body {
     line-height: clamp(2px, 7vw, 120px);
     padding-top: 20px;
     padding-bottom: clamp(2px, 5vw, 5px);
-    letter-spacing: clamp(2px, 2vw, 5px);
+    letter-spacing: clamp(2px, 2vw, 10px);
 
 }
 
@@ -85,8 +85,8 @@ body {
     line-height: 1.6;
     font-size: clamp(5px, 1vw, 11px);
     font-family: 'Courier Prime', monospace;
-    color: rgba(255, 255, 255, 0.315);
-    background: rgb(143, 140, 140,0.5);
+    color: rgba(255, 255, 255, 0.753);
+    background: rgba(143, 140, 140, 0.753);
     width: clamp(5px, 15vw, 180px);
     padding-left: clamp(1px, 1vw, 15px);
     padding-top: 2px;
@@ -100,8 +100,8 @@ body {
     line-height: 1.6;
     font-size: clamp(5px, 1vw, 11px);
     font-family: 'Courier Prime', monospace;
-    color: rgba(255, 255, 255, 0.308);
-    background: rgba(253, 212, 77, 0.3);
+    color: rgba(255, 255, 255, 0.781);
+    background: rgba(253, 212, 77, 0.425);
     width: clamp(5px, 9vw, 104px);
     padding-left: 9px; 
     padding-top: 2px;
@@ -114,8 +114,8 @@ body {
     line-height: 1.6;
     font-size: clamp(5px, 1vw, 11px);
     font-family: 'Courier Prime', monospace;
-    color: rgba(63, 57, 57, 0.514);
-    background: rgba(255, 255, 255, 0.692);
+    color: rgba(63, 57, 57, 0.829);
+    background: rgba(255, 255, 255, 0.774);
     width: clamp(5px, 9vw, 104px);
     padding-left: 10px;
     padding-top: 2px;
@@ -387,7 +387,7 @@ body {
         line-height: clamp(2px, 17vw,60px);
         padding-top: 20px;
         padding-bottom: clamp(2px, 5vw, 5px);
-        letter-spacing: clamp(2px, 2vw, 2px);
+        letter-spacing: clamp(2px, 1.5vw, 6px);
     }
 
     .image-box {
