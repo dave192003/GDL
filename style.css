@@ -163,6 +163,8 @@ body {
 
 .button{
 
+    position: fixed;
+    bottom: 6vh;
     background-color: #ffbd59;
     border: none;
     border-radius: 40px;
