@@ -127,6 +127,13 @@ body {
     
 }
 
+.artist-badge-3:hover,
+.artist-badge-2:hover,
+.artist-badge-1:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
  /* ----------------- main image section ------------------- */
 
 .image-box {
