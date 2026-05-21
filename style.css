@@ -57,7 +57,7 @@ body {
     font-size: clamp(18px, 7vw, 200px);
     line-height: clamp(2px, 7vw, 120px);
     padding-top: 20px;
-    padding-bottom: clamp(2px, 5vw, 5px);
+    padding-bottom:16px;
     letter-spacing: clamp(2px, 2vw, 10px);
 
 }
@@ -152,10 +152,9 @@ body {
     width: 100%;
     height: auto;
     border-radius: 10%;
-    border: 3px solid #242423;
-    background: white;
+    background: transparent;
     margin-left: clamp(-3px, -3vw, 4px);
-    box-shadow: 0px -11px 50px 1px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px -11px 50px 1px rgba(8, 8, 8, 0.4);
 
 }
 
@@ -175,7 +174,7 @@ body {
     font-weight: bold;
     width: clamp(20px, 19vw, 300px);
     height:  clamp(10px, 4vw, 200px);
-    box-shadow:  3px 5px 20px rgba(0,0,0.2, 0.4);
+    box-shadow: 1px 10px 20px 10px rgba(0,0,0.2, 0.4);
    
 }
 
