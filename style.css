@@ -13,7 +13,7 @@
 /* _________________________ BODY ______________________ */
 
 body {
-    background: linear-gradient(#3b3939, #9aa4a0);
+    background: linear-gradient(#fcfcfc, #9aa4a0);
     margin: 0;
     min-height: 100%;
     height: auto;
@@ -52,7 +52,7 @@ body {
 
 .name-header {
 
-    color: white;
+    color: rgb(65, 63, 63);
     font-family: "Gagalin";
     font-size: clamp(18px, 7vw, 200px);
     line-height: clamp(2px, 7vw, 120px);
@@ -68,14 +68,12 @@ body {
     display: flex;
     flex-direction: row;
     background-color: transparent;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
     gap: 2px;
     width: clamp(20px, 40vw, 630px);
     top: clamp(10px, 100vh, 150px);
     left: clamp(1px, 10vw, 98px);
-    border: 0.3px solid rgba(255, 255, 255, 0.233);
-    border-radius: 11px;
     
 }
 
@@ -91,6 +89,7 @@ body {
     padding-left: clamp(1px, 1vw, 15px);
     padding-top: 2px;
     border-radius: 5px;
+    border: 1px solid black;
    
 }
 
@@ -100,12 +99,13 @@ body {
     line-height: 1.6;
     font-size: clamp(5px, 1vw, 11px);
     font-family: 'Courier Prime', monospace;
-    color: rgba(255, 255, 255, 0.781);
+    color: rgba(31, 30, 30, 0.781);
     background: rgba(253, 212, 77, 0.425);
     width: clamp(5px, 9vw, 104px);
     padding-left: 9px; 
     padding-top: 2px;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 .artist-badge-3{
@@ -120,6 +120,7 @@ body {
     padding-left: 10px;
     padding-top: 2px;
     border-radius: 5px;
+    border: 1px solid black;
   
 }
 
@@ -141,7 +142,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 10%;
-    border: 3px solid #ffbd59;
+    border: 3px solid #242423;
     background: white;
     margin-left: clamp(-3px, -3vw, 4px);
     box-shadow: 0px -11px 50px 1px rgba(255, 255, 255, 0.4);
@@ -180,7 +181,7 @@ body {
     display: flex;
     position: fixed;
     justify-content: space-between;
-    background-color: #fffdf9;
+    background-color: #3b3b3a;
     padding: 9px 1px;
     width: 100%;
     top: 0;
@@ -192,7 +193,7 @@ body {
 
 .logo {
     font-size: clamp(5px, 2vw, 20px);
-    color: #131210;
+    color: #ffffff;
     font-family: "Gagalin";
     margin-left: clamp(1px, 2vw, 70px);
     margin-top: clamp(5px, 4vh, 2px);
@@ -216,7 +217,7 @@ body {
 .navBar a {
     display: inline-block;
     text-decoration: none;
-    color: #0e2007;
+    color: #e7e7e7;
     font-family: 'Courier Prime', monospace;
     font-size: clamp(2px, 1.5vw, 16px);
     padding: 6px 2px;
