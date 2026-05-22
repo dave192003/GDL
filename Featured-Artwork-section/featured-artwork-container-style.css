@@ -1,0 +1,30 @@
+.artwork-container{
+    grid-column: 1 / -1;
+    display: grid;
+    width: 100%;
+    margin-top: 3px;
+    margin-left: 0px;
+    font-family: 'Courier Prime', monospace;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2px;
+    background: rgb(243, 238, 238, 0.1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+@media (max-width:480px) and (min-width: 320px){
+    .artwork-container{
+
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.card-list .card-item .card-link{
+    width: 100%;
+    padding: 18px;
+    margin-left: -60px;
+}
+
+}
