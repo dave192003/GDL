@@ -8,6 +8,7 @@
     width: clamp(30px, 38vw, 900px);
     padding-left: clamp(6px, 4vw, 240px);
     padding-top: 35px;
+    margin-left: clamp(35px, 2vw, 110px);
     
 }
 
@@ -31,7 +32,7 @@
         justify-self: center;
         padding-left: 0;
         margin-top: -24px;
-        margin-left: clamp(-34px, -3vw, 2px);
+        margin-left: clamp(10px, 1vw, 10px);
 
 
     }

@@ -285,41 +285,7 @@ body {
 
     /* __________________________________ atrist Badges _____________________________ */
 
-    .artist-badges-box {
-        background: rgba(253, 253, 253, 0.2);
-        border-top-left-radius: 11px;
-        border-top-right-radius: 11px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: clamp(100px, 88.5vw, 500px);
-        background: none;
-    }
-
-
-
-    .artist-badge-1 {
-        line-height: 1.8;
-        width: clamp(8px, 40vw, 120px);
-        border-radius: 5px;
-        font-size: clamp(8px, 1vw, 16px);
-    }
-
-    .artist-badge-2 {
-        line-height: 1.8;
-        font-size: clamp(8px, 1.2vw, 16px);
-        width: clamp(5px, 25vw, 75px);
-        border-radius: 5px;
-    }
-
-    .artist-badge-3 {
-
-        line-height: 1.7;
-        font-size: clamp(8px, 1.2vw, 11px);
-        width: clamp(5px, 24vw, 75px);
-        border-radius: 5px;
-
-    }
-
+    
     .artwork-container {
 
         width: 100%;
