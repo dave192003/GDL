@@ -1,0 +1,48 @@
+.button {
+
+    position: fixed;
+    bottom: 6vh;
+    background-color: #ffbd59;
+    border: none;
+    border-radius: 40px;
+    font-size: clamp(6px, 1.6vw, 30px);
+    margin-left: clamp(1px, 4.7vw, 0px);
+    margin-top: clamp(22px, 2vw, 200px);
+    color: #0c0b0b;
+    font-weight: bold;
+    width: clamp(20px, 19vw, 300px);
+    height: clamp(10px, 4vw, 200px);
+    box-shadow: 1px 10px 20px 10px rgba(0, 0, 0.2, 0.4);
+
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #fcfcfc;
+    color: #ffbd59;
+    transition: transform 0.5s ease, background-color 0.2s, color 0.2s;
+
+}
+
+/* MOBILE VIEW */
+@media (max-width: 480px) and (min-width: 320px){
+    .button {
+        position: fixed;
+        bottom: 2vh;
+        margin-left: clamp(1px, 1vw, 10px);
+        font-size: clamp(6px, 3.3vw, 50px);
+        width: clamp(20px, 37vw, 150px);
+        height: clamp(10px, 8vw, 200px);
+        z-index: 5;
+        border-radius: 15px;
+        border: none;
+        box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.562);
+    }
+
+    .button:active {
+        transform: scale(0.5);
+        background-color: #ffffff;
+        color: white;
+    }
+
+}
