@@ -1,0 +1,14 @@
+footer{
+    background: rgba(46, 44, 44, 0.774);
+    color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 25px 40px;
+    justify-self: center;
+    gap: 30px;
+    height: 20vh;
+    margin-top: 50px;
+
+}
