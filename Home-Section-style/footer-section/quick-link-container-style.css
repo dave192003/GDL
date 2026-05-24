@@ -3,10 +3,12 @@
    flex-direction: column;
    justify-content:space-evenly;
    align-items: center;
+   line-height: 1px;
 
 }
 .quick-link-container h3{
     font-size: 15px;
+    color: rgb(255, 255, 255);
 
 }
 .quick-link-container .footer-links{
@@ -17,7 +19,7 @@
 }
 
 .quick-link-container a{
-    color: rgba(255, 255, 255, 0.466);
+    color: rgba(255, 255, 255, 0.568);
     gap: 20px;
     font-size: 14px;
 
