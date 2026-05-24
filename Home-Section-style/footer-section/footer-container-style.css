@@ -1,14 +1,22 @@
+*{
+    font-family: 'Courier Prime', monospace;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
 footer{
     background: rgba(46, 44, 44, 0.774);
     color: white;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-rows: auto;
     padding: 25px 40px;
     justify-self: center;
-    gap: 30px;
-    height: 20vh;
+    gap: 25px;
+    height: auto;
     margin-top: 50px;
+    text-align: center;
 
 }
