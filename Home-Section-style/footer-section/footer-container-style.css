@@ -1,4 +1,4 @@
-*{
+footer *{
     font-family: 'Courier Prime', monospace;
     list-style: none;
     text-decoration: none;
@@ -9,9 +9,8 @@ footer{
     background: rgba(46, 44, 44, 0.774);
     color: white;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: column;
     padding: 25px 40px;
     justify-self: center;
     gap: 25px;
