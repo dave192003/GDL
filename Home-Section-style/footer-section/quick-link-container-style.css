@@ -1,21 +1,25 @@
 .quick-link-container{
    display: flex;
    flex-direction: column;
+   height: auto;   
 
 }
 .quick-link-container h3{
     margin-left: 35px;
+    font-size: 15px;
 
 }
 .quick-link-container .footer-links{
     list-style: none;
+    display: flex;
+    gap: 20px;
     
 }
 
 .quick-link-container a{
-    text-decoration:none;
     color: rgba(255, 255, 255, 0.466);
     gap: 20px;
+    font-size: 14px;
 
 
 }
