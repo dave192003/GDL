@@ -3,25 +3,22 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-
-
+    
 }
 
 .social-container h3{
     font-size: 15px;
-
+    margin-bottom: 1px;
 }
 
 .social-container ul{
     display: flex;
     gap: 50px;
-    margin-left: -98px;
-    
+    margin-left: -98px; 
 }
 
 .social-container i{
     color: rgba(255, 255, 255, 0.315);
-
 }
 
 .social-container i:hover{
