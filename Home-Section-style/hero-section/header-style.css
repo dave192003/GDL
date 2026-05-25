@@ -15,6 +15,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+    
 
 }
 .headers-container {
@@ -48,6 +49,7 @@
     font-size: clamp(18px, 7.3vw, 200px);
     line-height: clamp(2px, 7vw, 120px);
     letter-spacing: clamp(2px, 2vw, 10px);
+    margin-bottom: 5px;
 
 }
 

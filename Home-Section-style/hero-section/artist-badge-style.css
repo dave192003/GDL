@@ -7,7 +7,7 @@
     align-items: center;
     gap: 2px;
     width: clamp(20px, 40vw, 630px);
-    top: clamp(10px, 100vh, 150px);
+    margin-top: clamp(10px, 20vh, 20px);
     left: clamp(1px, 10vw, 98px);
 
 }
