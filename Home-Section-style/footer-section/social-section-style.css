@@ -3,18 +3,19 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    
+    gap: 10px;
 }
 
 .social-container h3{
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 1px;
 }
 
 .social-container ul{
     display: flex;
     gap: 50px;
-    margin-left: -98px; 
+    margin: 0;
+    padding: 0;
 }
 
 .social-container i{

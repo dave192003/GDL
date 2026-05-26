@@ -1,0 +1,13 @@
+.About-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    line-height: 1px;
+}
+
+.logo{
+    margin-left: 1px;
+    font-size: 30px;
+}
