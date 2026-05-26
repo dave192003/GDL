@@ -19,7 +19,7 @@
     font-size: clamp(5px, 1vw, 11px);
     font-family: 'Courier Prime', monospace;
     color: rgba(255, 255, 255, 0.753);
-    background: rgba(143, 140, 140, 0.753);
+    background: rgba(128, 125, 125, 0.959);
     width: clamp(5px, 15vw, 180px);
     padding-left: clamp(1px, 1vw, 15px);
     padding-top: 2px;
@@ -46,12 +46,10 @@
     box-shadow:
     5px 5px 20px rgba(0, 0, 0, 0.596),
     -3px -5px 6px rgb(255, 255, 255);
-
     border: 1px solid black;
 }
 
 .artist-badge-3 {
-
     text-align: justify;
     line-height: 1.6;
     font-size: clamp(5px, 1vw, 11px);
@@ -66,16 +64,14 @@
     box-shadow:
     5px 5px 20px rgba(0, 0, 0, 0.596),
     -3px -5px 6px rgb(255, 255, 255);
-
-
 }
 
+/* Shared Hover */
 .artist-badge-3:hover,
 .artist-badge-2:hover,
 .artist-badge-1:hover {
     transform: scale(1.1);
     transition: 0.3s;
-
 }
 
 /* Mobile View */
