@@ -56,7 +56,20 @@ body {
     height: clamp(10px, 3.5vw,30px);
     margin-top: 5px;
     width: clamp(20px, 20vw, 180px);
+    animation: pulse 3s infinite;
 
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .button:hover {
