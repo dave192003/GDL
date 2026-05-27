@@ -26,9 +26,9 @@ body {
 .navBar {
     display: flex;
     position: fixed;
-    justify-content: space-between;
+    justify-content:space-between;
     background-color: #3b3b3a;
-    padding: 9px 1px;
+    padding: 10px 1px;
     width: 100%;
     top: 0;
     left: 0;
@@ -37,12 +37,66 @@ body {
 }
 
 
+.navBar .logo-button-container{
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+}
+
+.navBar .button {
+    
+    background-color: #ffbd59;
+    border: none;
+    border-radius: 10px;
+    font-size: clamp(6px, 1.5vw, 14px);
+    color: #0c0b0b;
+    font-weight: bold;
+    height: clamp(10px, 3.5vw,30px);
+    margin-top: 5px;
+    width: clamp(20px, 20vw, 180px);
+
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #fcfcfc;
+    color: #ffbd59;
+    transition: transform 0.5s ease, background-color 0.2s, color 0.2s;
+
+}
+
+/* MOBILE VIEW */
+@media (max-width: 480px) and (min-width: 320px){
+    .button {
+        position: fixed;
+        bottom: 2vh;
+        margin-left: clamp(1px, 1vw, 10px);
+        font-size: clamp(6px, 3.3vw, 50px);
+        width: clamp(20px, 37vw, 150px);
+        height: clamp(10px, 8vw, 200px);
+        z-index: 5;
+        border-radius: 15px;
+        border: none;
+        box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.562);
+    }
+
+    .button:active {
+        transform: scale(0.5);
+        background-color: #ffffff;
+        color: white;
+    }
+
+}
+
+
+
 .logo {
+   
     font-size: clamp(5px, 2vw, 20px);
     color: #ffffff;
     font-family: "Gagalin";
-    margin-left: clamp(1px, 2vw, 70px);
-    margin-top: clamp(5px, 4vh, 2px);
+  
+
 }
 
 .navBar ul {
