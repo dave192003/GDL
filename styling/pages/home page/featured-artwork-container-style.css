@@ -13,6 +13,7 @@
     
 }
 
+/* Mobile platform */
 @media (max-width:480px) and (min-width: 320px){
     .artwork-container{
 

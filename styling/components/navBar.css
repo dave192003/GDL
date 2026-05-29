@@ -55,6 +55,14 @@
 
 }
 
+/* TABLET VIEW  */
+
+@media (max-width: 780px) {
+    .navBar {
+        padding: 5px 3px;
+    }
+}
+
 /* MOBILE VIEW */
 @media (max-width: 480px) and (min-width: 320px){
     .button {
@@ -115,3 +123,12 @@
     border-radius: 50px;
     color: rgb(29, 28, 28);
 }
+
+.navBar {
+    padding: 5px 3px;
+}
+
+.navBar ul a {
+        margin-right: 5px;
+        font-size: clamp(5px, 5vw, 11px);
+    }
