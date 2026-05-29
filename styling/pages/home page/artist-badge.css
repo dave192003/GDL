@@ -5,9 +5,8 @@
     background-color: transparent;
     justify-content: space-between;
     align-items: center;
-    gap: 2px;
-    width: clamp(20px, 40vw, 630px);
-    margin-top: clamp(10px, 20vh, 20px);
+    gap: 10px;
+    width: clamp(20px, 40vw, 725px);
     left: clamp(1px, 10vw, 98px);
 
 }
@@ -16,11 +15,11 @@
 
     text-align: justify;
     line-height: 1.6;
-    font-size: clamp(5px, 1vw, 11px);
+    font-size: clamp(5px, 1vw, 15px);
     font-family: 'Courier Prime', monospace;
     color: rgba(255, 255, 255, 0.753);
     background: rgba(128, 125, 125, 0.959);
-    width: clamp(5px, 15vw, 180px);
+    width: clamp(5px, 17vw, 250px);
     padding-left: clamp(1px, 1vw, 15px);
     padding-top: 2px;
     border-radius: 5px;
@@ -35,11 +34,11 @@
 
     text-align: justify;
     line-height: 1.6;
-    font-size: clamp(5px, 1vw, 11px);
+    font-size: clamp(5px, 1vw, 15px);
     font-family: 'Courier Prime', monospace;
     color: rgba(31, 30, 30, 0.781);
     background: rgba(253, 212, 77, 0.425);
-    width: clamp(5px, 9vw, 104px);
+    width: clamp(5px, 10.6vw, 145px);
     padding-left: 9px;
     padding-top: 2px;
     border-radius: 5px;
@@ -52,11 +51,11 @@
 .artist-badge-3 {
     text-align: justify;
     line-height: 1.6;
-    font-size: clamp(5px, 1vw, 11px);
+    font-size: clamp(5px, 1vw, 15px);
     font-family: 'Courier Prime', monospace;
     color: rgba(63, 57, 57, 0.829);
     background: rgba(255, 255, 255, 0.774);
-    width: clamp(5px, 9vw, 104px);
+    width: clamp(5px, 10.8vw, 145px);
     padding-left: 10px;
     padding-top: 2px;
     border-radius: 5px;
