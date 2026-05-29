@@ -2,14 +2,58 @@
     display: flex;
     position: fixed;
     justify-content:space-between;
+    align-items: center;
     background-color: #3b3b3a;
     padding: 10px 1px;
     width: 100%;
+    height: 70px;
     top: 0;
     left: 0;
     box-shadow: 5px 20px 25px rgba(0, 0, 0, 0.4);
 
 }
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    gap: clamp(1px, 2vw, 1px);
+
+}
+
+.navBar li {
+    margin: 0 clamp(5px, 2vw, 45px);
+}
+
+
+.navBar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #e7e7e7;
+    font-family: 'Courier Prime', monospace;
+    font-size: clamp(2px, 2vw, 16px);
+    padding: 6px 2px;
+    margin-top: 4px;
+
+}
+
+.navBar a:hover {
+    background-color: #f7f0f0;
+    border-radius: 50px;
+    color: rgb(29, 28, 28);
+}
+
+.navBar {
+    padding: 5px 3px;
+}
+
+.navBar ul a {
+        margin-right: 5px;
+        font-size: clamp(5px, 2vw, 20px);
+    }
+
 
 
 .navBar .logo-button-container{
@@ -89,43 +133,3 @@
     font-family: "Gagalin";
 }
 
-.navBar ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-    gap: clamp(1px, 2vw, 1px);
-
-}
-
-.navBar li {
-    margin: 0 clamp(5px, 2vw, 45px);
-}
-
-
-.navBar a {
-    display: inline-block;
-    text-decoration: none;
-    color: #e7e7e7;
-    font-family: 'Courier Prime', monospace;
-    font-size: clamp(2px, 2vw, 16px);
-    padding: 6px 2px;
-    margin-top: 4px;
-
-}
-
-.navBar a:hover {
-    background-color: #f7f0f0;
-    border-radius: 50px;
-    color: rgb(29, 28, 28);
-}
-
-.navBar {
-    padding: 5px 3px;
-}
-
-.navBar ul a {
-        margin-right: 5px;
-        font-size: clamp(5px, 5vw, 11px);
-    }
