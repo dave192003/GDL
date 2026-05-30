@@ -8,58 +8,50 @@
 
 }
 
-.artist-badge-1 {
-
+/* shared attributes */
+.artist-badge-1,
+.artist-badge-2,
+.artist-badge-3{
     text-align: justify;
     line-height: 1.6;
-    font-size: clamp(5px, 1vw, 15px);
     font-family: 'Courier Prime', monospace;
+    padding-top: 2px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow:
+    5px 5px 20px rgba(0, 0, 0, 0.596),
+    -3px -5px 6px rgb(255, 255, 255);
+
+}
+
+.artist-badge-1 {
+
+    font-size: clamp(5px, 1vw, 15px);
     color: rgba(255, 255, 255, 0.753);
     background: rgba(128, 125, 125, 0.959);
     width: clamp(5px, 17vw, 250px);
     padding-left: clamp(1px, 1vw, 15px);
-    padding-top: 2px;
-    border-radius: 5px;
-    border: 1px solid black;
-    box-shadow:
-    5px 5px 20px rgba(0, 0, 0, 0.596),
-    -3px -5px 6px rgb(255, 255, 255);
-
+   
 }
 
 .artist-badge-2 {
 
-    text-align: justify;
-    line-height: 1.6;
     font-size: clamp(5px, 1vw, 15px);
-    font-family: 'Courier Prime', monospace;
     color: rgba(31, 30, 30, 0.781);
     background: rgba(253, 212, 77, 0.425);
     width: clamp(5px, 10.6vw, 145px);
     padding-left: 9px;
-    padding-top: 2px;
-    border-radius: 5px;
-    box-shadow:
-    5px 5px 20px rgba(0, 0, 0, 0.596),
-    -3px -5px 6px rgb(255, 255, 255);
-    border: 1px solid black;
+    
 }
 
 .artist-badge-3 {
-    text-align: justify;
-    line-height: 1.6;
+   
     font-size: clamp(5px, 1vw, 15px);
-    font-family: 'Courier Prime', monospace;
     color: rgba(63, 57, 57, 0.829);
     background: rgba(255, 255, 255, 0.774);
     width: clamp(5px, 10.8vw, 145px);
     padding-left: 10px;
-    padding-top: 2px;
-    border-radius: 5px;
-    border: 1px solid black;
-    box-shadow:
-    5px 5px 20px rgba(0, 0, 0, 0.596),
-    -3px -5px 6px rgb(255, 255, 255);
+   
 }
 
 /* Shared Hover */
