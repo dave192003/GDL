@@ -21,7 +21,7 @@
     height: 30rem;
     object-fit: cover;
     border-radius: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
 }
 
@@ -30,13 +30,25 @@
     padding: 2px 2px;
     background:  rgba(128, 128, 128, 0.5);
     width: 130px;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     margin-bottom: 20px;
     
 }
 
-.card-list .card-item 
+.card-list .card-item .card-title{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
 
+
+
+.card-list .card-item .card-button{
+    font-family:'Courier Prime', monospace;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 2px 10px;
+}
 
 
 
