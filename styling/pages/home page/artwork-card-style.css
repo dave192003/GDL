@@ -14,10 +14,6 @@
     10px 3px 20px   rgba(51, 49, 49, 0.479),
     -3px -5px 25px rgb(252, 249, 249);
 
-    
-
-   
-
 }
 
 .card-list .card-item img{
@@ -25,8 +21,23 @@
     height: 30rem;
     object-fit: cover;
     border-radius: 12px;
+    margin-bottom: 10px;
 
 }
+
+.card-list .card-item .badge{
+   
+    padding: 2px 2px;
+    background:  rgba(128, 128, 128, 0.5);
+    width: 130px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.card-list .card-item 
+
+
 
 
 
