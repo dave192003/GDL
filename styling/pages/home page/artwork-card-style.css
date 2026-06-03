@@ -65,13 +65,16 @@
     color: black;
 }
 
-.card-list .card-item .card-link .badge {
-
+.badge-container{
     display: flex;
-    justify-content: center;
-    background: rgba(14, 11, 11, 0.116);
-    color: #817f7f;
-    font-size: 10px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* shared attributes */
+.badge-container .badge,
+.badge-container .year-badge{
+    font-size: 15px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.329);
     padding: 2px 5px;
@@ -80,9 +83,15 @@
 
 }
 
-.card-title {
+.badge-container .badge {
+    background: rgba(14, 11, 11, 0.116);
+    color: #817f7f;
+   
+}
 
-    color: black;
-    font-size: 17px;
+.badge-container .year-badge {
+    background: #ffbd59a8;
+    color: #4d380b;
+    height: clamp(10px, 15vw, 24px);
 
 }
