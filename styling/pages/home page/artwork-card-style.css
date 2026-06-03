@@ -95,3 +95,10 @@
     height: clamp(10px, 15vw, 24px);
 
 }
+
+.card-list .card-item .card-title{
+    font-size: clamp(20px, 2vw, 30px);
+    font-family: 'Courier Prime', monospace;
+    margin-bottom: 20px;
+    color: rgb(71, 71, 71);
+}
