@@ -37,17 +37,6 @@
 
 }
 
-.card-list .card-item .badge {
-
-    padding: 2px 2px;
-    background: rgba(128, 128, 128, 0.418);
-    width: 130px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.226);
-
-}
-
 
 .card-list .card-item .card-button {
     font-family: 'Courier Prime', monospace;
@@ -73,13 +62,12 @@
 /* shared attributes */
 .badge-container .badge,
 .badge-container .year-badge{
-    font-size: 15px;
+    text-align: center;
+    font-size: clamp(3px, 2.5vw, 15px);
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.329);
-    padding: 2px 5px;
-    width: 66px;
-    margin-left: -3px;
-
+    padding: 3px 5px;
+    margin-bottom: 20px;
 }
 
 .badge-container .badge {
