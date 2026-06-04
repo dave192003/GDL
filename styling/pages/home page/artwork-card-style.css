@@ -51,6 +51,8 @@
 /* button hover */
 .card-list .card-item .card-button:hover {
     color: black;
+    border-radius: 10px;
+    background: rgba(168, 165, 165, 0.397);
 }
 
 .badge-container{
