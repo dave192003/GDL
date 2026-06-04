@@ -1,0 +1,9 @@
+/* importing Google fonts - Road Rage */
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Gagalin';
+    src: url('../../fonts/Gagalin-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
