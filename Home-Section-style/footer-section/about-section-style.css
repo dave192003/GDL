@@ -1,6 +1,7 @@
 .About-container{
     display: flex;
     flex-direction: column;
+    gap: 25px;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
@@ -10,4 +11,10 @@
 .logo{
     margin-left: 1px;
     font-size: 30px;
+    font-family: var(--font-secondary);
+}
+
+h5{
+    font-family: var(--font-primary);
+    
 }
