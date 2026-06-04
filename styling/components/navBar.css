@@ -48,13 +48,13 @@
 }
 
 .navBar ul a {
-        margin-right: 5px;
-        font-size: clamp(5px, 2vw, 20px);
-    }
+    margin-right: 5px;
+    font-size: clamp(5px, 2vw, 20px);
+}
 
 
 
-.navBar .logo-button-container{
+.navBar .logo-button-container {
     display: flex;
     gap: 40px;
     margin-left: 20px;
@@ -63,28 +63,30 @@
 }
 
 .navBar .button {
-    
+
     background-color: #ffbd59;
     border: none;
     border-radius: 10px;
     font-size: clamp(6px, 1.5vw, 14px);
     color: #0c0b0b;
     font-weight: bold;
-    height: clamp(10px, 3.5vw,30px);
+    height: clamp(10px, 3.5vw, 30px);
     margin-top: 5px;
     width: clamp(20px, 20vw, 180px);
     animation: pulse 3s infinite;
 
 }
 
-@keyframes pulse{
-    0%{
+@keyframes pulse {
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(1.03);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
@@ -106,15 +108,21 @@
 }
 
 /* MOBILE VIEW */
-@media (max-width: 480px) and (min-width: 320px){
+@media (max-width: 480px) and (min-width: 320px) {
+
+   
+    .navBar .logo-button-container {
+        margin-left: 0;
+        gap: 10px;
+    }
+
     .button {
         width: clamp(20px, 37vw, 150px);
         height: clamp(10px, 8vw, 200px);
         border-radius: 15px;
         border: none;
         margin-left: 10px;
-        
-        
+
     }
 
     .button:active {
@@ -130,4 +138,3 @@
     color: #ffffff;
     font-family: "Gagalin";
 }
-
