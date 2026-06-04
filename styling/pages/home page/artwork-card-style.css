@@ -65,7 +65,7 @@
 .badge-container .badge,
 .badge-container .year-badge{
     text-align: center;
-    font-size: clamp(3px, 2.5vw, 15px);
+    font-size: clamp(2px, 2vw, 15px);
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.329);
     padding: 3px 5px;
