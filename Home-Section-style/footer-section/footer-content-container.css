@@ -1,8 +1,0 @@
-.footer-content-container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: clamp(20px, 15vw, 30px);
-    padding-right: 25px;
-
-}
