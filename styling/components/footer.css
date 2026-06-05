@@ -1,0 +1,129 @@
+footer *{
+
+    font-family: 'Courier Prime', monospace;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+ 
+    background: rgba(95, 92, 92, 0.116);
+    color: white;
+    width: 120%;
+    padding: 25px 25px; 
+    height: auto;
+    margin-top: 50px;
+    justify-self: center;
+    
+}
+
+/* Footer contents container */
+.footer-content-container {
+ 
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: clamp(20px, 15vw, 30px);
+    padding-right: 25px;
+
+}
+
+/* Logo and name  */
+
+.About-container{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    line-height: 1px;
+}
+
+.logo{
+
+    margin-left: 1px;
+    font-size: 30px;
+    font-family: var(--font-secondary);
+
+}
+
+h5{
+    font-family: var(--font-primary);
+}
+
+/* QUICK LINKS */
+.quick-link-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 14px;
+}
+
+.quick-link-container h3{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.quick-link-container .footer-links{
+    display: flex;
+    gap: clamp(10px, 1vw, 20px);
+    margin: 0;
+    padding: 0;  
+}
+
+.quick-link-container a{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 14px;
+}
+
+.quick-link-container a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+/* SOCIALS */
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(5px, 5vw, 10px);
+}
+
+.social-container h3 {
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.social-container ul {
+    display: flex;
+    gap: clamp(5px, 3vw, 50px);
+    margin: 0;
+    padding: 0;
+}
+
+.social-container i {
+    color: rgba(255, 255, 255, 0.315);
+}
+
+.social-container i:hover {
+    color: white;
+}
+ 
+
+/* COPYRIGHT  */
+footer p {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 12px;
+    padding-top: 30px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.137);
+}
