@@ -1,27 +1,27 @@
 .social-container {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: clamp(5px, 5vw, 10px);
 }
 
-.social-container h3{
+.social-container h3 {
     font-size: 12px;
     margin-bottom: 1px;
 }
 
-.social-container ul{
+.social-container ul {
     display: flex;
-    gap: 50px;
+    gap: clamp(5px, 3vw, 50px);
     margin: 0;
     padding: 0;
 }
 
-.social-container i{
+.social-container i {
     color: rgba(255, 255, 255, 0.315);
 }
 
-.social-container i:hover{
+.social-container i:hover {
     color: white;
 }
