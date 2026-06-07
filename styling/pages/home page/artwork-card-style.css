@@ -95,7 +95,7 @@
     line-clamp: 2;
     overflow: hidden;
     font-size: clamp(20px, 2vw, 30px);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--font-primary);
     margin-bottom: 20px;
     color: rgb(71, 71, 71);
 }
