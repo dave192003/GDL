@@ -23,6 +23,10 @@
 /* item hover */
 .card-list .card-item:hover {
     transform: scale(1.02);
+    box-shadow:
+        5px 3px 10px rgba(51, 49, 49, 0.027),
+        -3px -4px 10px rgb(97, 97, 97);
+
 }
 
 .card-list .card-item .card-image {
@@ -91,7 +95,7 @@
     line-clamp: 2;
     overflow: hidden;
     font-size: clamp(20px, 2vw, 30px);
-    font-family: 'Courier Prime', monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 20px;
     color: rgb(71, 71, 71);
 }
