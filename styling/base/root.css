@@ -1,6 +1,6 @@
 :root{
     /* fonts */
-    --font-primary: 'Courier Prime', monospace;
+    --font-primary: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --font-secondary: "Gagalin";
     --theme-color: #ffbd59;
 }
