@@ -1,7 +1,23 @@
 .stats-container{
-    display: flex;
+    
     flex-direction: column;
     gap: 100px;
     padding: 50px 20px;
+}
+
+.stats-container .stats{
+    gap: 15px;
+}
+.stats-container h2{
+    text-align: center;
+    width: 55px;
+    padding: 5px 5px;    
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: clamp(20px, 10vw, 30px);
+}
+
+.stats-container h5{
+    color: rgba(0, 0, 0, 0.452);
 }
 
