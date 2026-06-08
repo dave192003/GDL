@@ -49,7 +49,7 @@
     font-family: "Gagalin";
     font-size: clamp(18px, 7.5vw, 150px);
     line-height: clamp(2px, 7vw, 120px);
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     margin-bottom: 5px;
 
 }
