@@ -1,24 +1,24 @@
-.stats-container{
-    
+.stats-container {
+
     flex-direction: row;
     gap: 100px;
     padding: 3em 1em;
-    
+    border-top: 1px solid white;
 }
 
-.stats-container .stats{
+.stats-container .stats {
     gap: 15px;
 }
-.stats-container h2{
+
+.stats-container h2 {
     text-align: center;
     width: 2.5em;
-    padding: 0.3em 0.5em;    
+    padding: 0.3em 0.5em;
     border-radius: 50%;
     border: 2px solid black;
     font-size: clamp(10px, 1.4vw, 30px);
 }
 
-.stats-container h5{
+.stats-container h5 {
     color: rgba(0, 0, 0, 0.452);
 }
-
