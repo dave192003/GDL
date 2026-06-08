@@ -19,13 +19,13 @@
 
 }
 .headers-container {
-    grid-column: 1 ;
+    grid-column: 1  ;
     justify-self: start;
     display: flex;
     flex-direction: column;
     height: auto;
     gap: 2em;
-    max-width: 800px;
+    max-width:800px;
     padding-left: clamp(10px,2vw, 30px);
     
    
@@ -49,7 +49,7 @@
     font-family: "Gagalin";
     font-size: clamp(18px, 7.5vw, 150px);
     line-height: clamp(2px, 7vw, 120px);
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     margin-bottom: 5px;
 
 }
