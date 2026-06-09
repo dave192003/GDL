@@ -1,13 +1,15 @@
 .stats-container {
 
     flex-direction: row;
-    gap: 100px;
-    padding: 3em 1em;
+    gap: clamp(5px, 3vw, 100px);
+    width: 90%;
+    padding: clamp(10px, 5vw , 30px) 1em;
     border-top: 1px solid white;
+
 }
 
 .stats-container .stats {
-    gap: 15px;
+    gap: 1em;
 }
 
 .stats-container h2 {
@@ -16,9 +18,10 @@
     padding: 0.3em 0.5em;
     border-radius: 50%;
     border: 2px solid black;
-    font-size: clamp(10px, 1.4vw, 30px);
+    font-size: clamp(10px, 1vw, 30px);
 }
 
 .stats-container h5 {
     color: rgba(0, 0, 0, 0.452);
+    font-size: clamp(10px, 1vw, 15px);
 }
