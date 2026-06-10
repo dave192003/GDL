@@ -23,7 +23,7 @@
 }
 
 /* ____________________ MOBILE VIEW __________________ */
-@media (max-width:480px) and (min-width: 320px){
+@media (max-width:480px) and (min-width: 300px){
 
     .image-box { 
         grid-column: 1;
@@ -32,7 +32,7 @@
         justify-self: center;
         padding-left: 0;
         margin-top: -24px;
-        margin-left: clamp(2px, -3vw, 10px);
+        margin-left: clamp(-20px, -36vw, 5px);
     }
     
 

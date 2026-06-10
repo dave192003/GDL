@@ -1,27 +1,39 @@
 .stats-container {
-
+    display: flex !important; 
     flex-direction: row;
-    gap: clamp(5px, 3vw, 100px);
-    width: 90%;
-    padding: clamp(10px, 5vw , 30px) 1em;
-    border-top: 1px solid white;
+    justify-content: flex-start; 
+    gap: clamp(11px, 1vw, 20px);
+    padding: clamp(15px, 2vw, 25px) 0; 
+    border-top: 1px solid rgba(255, 255, 255, 0.5); 
+    width: auto;
+    box-sizing: border-box;
 
 }
 
 .stats-container .stats {
-    gap: 1em;
+    gap: 0rem;
 }
 
 .stats-container h2 {
     text-align: center;
     width: 2.5em;
-    padding: 0.3em 0.5em;
-    border-radius: 50%;
-    border: 2px solid black;
-    font-size: clamp(10px, 1vw, 30px);
+    font-size: clamp(20px, 2vw, 30px);
 }
 
 .stats-container h5 {
     color: rgba(0, 0, 0, 0.452);
     font-size: clamp(10px, 1vw, 15px);
+}
+
+@media (max-width:480px) and (min-width: 300px) {
+    .stats-container {
+        gap: clamp(-23px, -25vw, 15px);
+        padding-left: 0;
+        
+    }
+
+    .stats-container .stats {
+    gap: 5px;
+}
+
 }

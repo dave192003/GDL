@@ -1,14 +1,18 @@
 .navBar {
     position: fixed;
     background-color: #3b3b3a;
-    padding: 10px 1px;
+    padding: 10px 20px; 
     width: 100%;
-    height: 70px;
+    min-height: 40px;
     top: 0;
     left: 0;
-    box-shadow: 5px 20px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
     z-index: 10;
-
+    box-sizing: border-box; 
+    /* ALIGNS ITEMS SIDE-BY-SIDE ON DESKTOP */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navBar ul {
@@ -17,24 +21,17 @@
     justify-content: flex-end;
     margin: 0;
     padding: 0;
-    gap: clamp(1px, 2vw, 1px);
-
+    gap: clamp(15px, 2vw, 30px); 
 }
-
-.navBar li {
-    margin: 0 clamp(5px, 2vw, 45px);
-}
-
 
 .navBar a {
     display: inline-block;
     text-decoration: none;
     color: #e7e7e7;
     font-family: 'Courier Prime', monospace;
-    font-size: clamp(2px, 2vw, 16px);
-    padding: 6px 2px;
-    margin-top: 4px;
-
+    font-size: clamp(14px, 1.5vw, 18px); 
+    padding: 6px 14px;
+    transition: all 0.3s ease;
 }
 
 .navBar a:hover {
@@ -43,98 +40,118 @@
     color: rgb(29, 28, 28);
 }
 
-.navBar {
-    padding: 5px 3px;
-}
-
-.navBar ul a {
-    margin-right: 5px;
-    font-size: clamp(5px, 2vw, 20px);
-}
-
-
-
 .navBar .logo-button-container {
     display: flex;
-    gap: 40px;
-    margin-left: 20px;
-    justify-content: center;
+    gap: 20px;
     align-items: center;
 }
 
-.navBar .button {
+.logo-button-container .logo {
+    font-size: clamp(18px, 4vw, 26px);
+    color: #ffffff;
+    font-family: "Gagalin", sans-serif;
+}
 
+.navBar .button {
     background-color: #ffbd59;
     border: none;
     border-radius: 10px;
-    font-size: clamp(6px, 1.5vw, 14px);
+    font-size: clamp(11px, 1.2vw, 14px);
     color: #0c0b0b;
     font-weight: bold;
-    height: clamp(10px, 3.5vw, 30px);
-    margin-top: 5px;
-    width: clamp(20px, 20vw, 180px);
-    animation: pulse 3s infinite;
+    height: 35px;
+    padding: 0 15px;
+    cursor: pointer;
+    animation: pulse 3s infinite ease-in-out;
+    transition: background-color 0.2s, color 0.2s;
+}
 
+.navBar .button:hover {
+    animation-play-state: paused;
+    transform: scale(1.05);
+    background-color: #fcfcfc;
+    color: #ffbd59;
 }
 
 @keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.03);
-    }
-
-    100% {
-        transform: scale(1);
-    }
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.03); }
 }
 
-.button:hover {
-    transform: scale(1.1);
-    background-color: #fcfcfc;
-    color: #ffbd59;
-    transition: transform 0.5s ease, background-color 0.2s, color 0.2s;
-
+.menu-toggle {
+    display: none; 
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px 15px;
 }
 
-/* TABLET VIEW  */
 
+/* TABLET VIEW */
 @media (max-width: 780px) {
     .navBar {
-        padding: 5px 3px;
+        padding: 10px 15px;
     }
 }
 
-/* MOBILE VIEW */
-@media (max-width: 480px) and (min-width: 320px) {
+/* MOBILE VIEW (480px and down) */
+@media (max-width: 480px) {
+    
 
-   
+    .menu-toggle {
+        display: block;
+    }
+
+  
     .navBar .logo-button-container {
         margin-left: 0;
         gap: 10px;
     }
 
-    .button {
-        width: clamp(20px, 37vw, 150px);
-        height: clamp(10px, 8vw, 200px);
-        border-radius: 15px;
-        border: none;
-        margin-left: 10px;
-
+    .navBar .button {
+        width: auto; 
+        height: 26px;
+        font-size: 11px;
+        border-radius: 8px;
     }
 
-    .button:active {
-        transform: scale(0.5);
+    .navBar .button:active {
+        transform: scale(0.95);
         background-color: #ffffff;
-        color: white;
+        color: #ffbd59;
     }
 
-}
+    
+    .navBar ul {
+        display: none; /* Hidden until hamburger is clicked */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #3b3b3a;
+        padding: 20px 0;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        gap: 15px;
+        text-align: center;
+    }
 
-.logo-button-container .logo {
-    font-size: clamp(10px, 5vw, 26px);
-    color: #ffffff;
-    font-family: "Gagalin";
+    /* Force mobile link rows to occupy full block width */
+    .navBar ul li {
+        width: 100%;
+        margin: 0;
+    }
+
+    .navBar ul a {
+        font-size: 18px;
+        width: 80%;
+       
+    }
+
+    /* THIS CLASS IS TOGGLED VIA JAVASCRIPT */
+    .navBar ul.active {
+        display: flex;
+    }
 }
