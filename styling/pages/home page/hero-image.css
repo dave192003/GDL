@@ -1,14 +1,9 @@
-
 .image-box {
     grid-column: 2;
-    justify-self: center;
-    display: flex;
-    flex-direction: column;
+
     height: auto;
     width: clamp(30px, 38vw, 900px);
-    padding-left: clamp(6px, 4vw, 240px);
-    padding-top: 35px;
-    margin-left: clamp(35px, 10vw, 170px);  
+    margin-left: clamp(35px, 10vw, 170px);
 }
 
 .my-image {
@@ -16,28 +11,24 @@
     height: auto;
     border-radius: 10%;
     background: transparent;
-    margin-left: clamp(-3px, -3vw, 4px);
-     box-shadow:
+    box-shadow:
         10px 20px 20px #5e5b5bbb,
-       -20px -5px 25px #ffffff;
+        -20px -5px 25px #ffffff;
 }
 
 /* ____________________ MOBILE VIEW __________________ */
-@media (max-width:480px) and (min-width: 300px){
+@media (max-width:480px) and (min-width: 300px) {
 
-    .image-box { 
+    .image-box {
         grid-column: 1;
-        width: clamp(200px, 85vw, 890px);
-        align-self: center;
-        justify-self: center;
+        width: 100%;
+        margin-left: 0;
         padding-left: 0;
-        margin-top: -24px;
-        margin-left: clamp(-20px, -36vw, 5px);
-    }
-    
+        border: 1px solid black;
 
-    .my-image{
-        border-radius: 15px;
-        width: clamp(20px, 87vw, 550px);
+    }
+    .my-image {
+        BORDER: 1PX SOLID BLACK;
+
     }
 }

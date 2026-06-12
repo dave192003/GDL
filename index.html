@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- Linking CSS styling -->
     <link rel="stylesheet" href="styling/base/body.css">
     <link rel="stylesheet" href="styling/base/reset.css">
     <link rel="stylesheet" href="styling/components/navBar.css">
@@ -22,23 +21,20 @@
     <link rel="stylesheet" href="styling/components/footer.css">
     <link rel="stylesheet" href="styling/pages/home page/stats.css">
 
-    <!-- Linking Font Awesome Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- NAVIGATION BAR -->
     <header>
         <nav class="flex-between navBar">
-            <div class="logo-button-container">
-                <div class="logo"> GDL</div>
+            <div class="flex-between logo-button-container">
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </</button>
+
                 <button class="button">Request Commision</button>
             </div>
-
-            <button class="menu-toggle" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
 
             <ul>
                 <li><a href="#"> Home </a></li>
@@ -49,14 +45,9 @@
         </nav>
     </header>
 
-
     <main>
-        <!-- Hero section -->
         <section class="hero-section">
-
-            <!-- Main heading -->
             <div class="headers-container">
-
                 <p class="header">Hi! I am </p>
                 <h1 class="name-header"> Guhit dave lebico</h1>
                 <div class="flex-between artist-badges-box">
@@ -65,9 +56,8 @@
                     <p class="artist-badge-3">Digital Artist</p>
                 </div>
 
-                <!-- stats -->
                 <div class="flex-between stats-container">
-                    <div class="centered rating stats">
+                    <div class="centered stats rating">
                         <h2>4.<small>8</small></h2>
                         <h5>Overall Ratings</h5>
                     </div>
@@ -75,113 +65,86 @@
                         <h2>78</h2>
                         <h5>Total Commissiones</h5>
                     </div>
-
                     <div class="centered experinces stats">
                         <h2>8</h2>
                         <h5>Years of Experinces</h5>
                     </div>
-
                 </div>
-
             </div>
 
-            <!-- Hero Image -->
             <div class="image-box">
-                <img src="images/DaveImageTrans.png" class=" my-image">
+                <img src="images/DaveImageTrans.png" class="my-image">
+            </div>
+        </section>
+
+        <section class="featured-artworks-section">
+            <div class="centered FA-headers-container">
+                <div class="FA-main-header"> Featured Artworks </div>
+                <div class="FA-intro-container">
+                    <div class="FA-intro-header">
+                        Showcasing selected commissioned and personal artworks
+                        crafted with creativity and passion.
+                    </div>
+                </div>
             </div>
 
+            <div class="artwork-container">
+                <div class="card-wrapper">
+                    <ul class="card-list">
+                        <li class="card-item">
+                            <img src="images/img1.jpg" alt="Card Image" class="card-image">
+                            <div class="badge-container">
+                                <p class="badge"> Commissioned </p>
+                                <p class="year-badge"> 2024 </p>
+                            </div>
+                            <h2 class="card-title">Pure Charcoal portrait</h2>
+                            <button class="card-button material-symbols-outlined">View Details</button>
+                        </li>
 
+                        <li class="card-item">
+                            <img src="images/img2.jpg" alt="Card Image" class="card-image">
+                            <div class="badge-container">
+                                <p class="badge"> Personal </p>
+                                <p class="year-badge"> 2025 </p>
+                            </div>
+                            <h2 class="card-title">Mixed Medium Eye Portrait</h2>
+                            <button class="card-button material-symbols-outlined">View Details</button>
+                        </li>
 
+                        <li class="card-item">
+                            <img src="images/img3.jpg" alt="Card Image" class="card-image">
+                            <div class="badge-container">
+                                <p class="centered badge"> Commissioned </p>
+                                <p class="centered year-badge"> 2024 </p>
+                            </div>
+                            <h2 class="card-title">Pure Charcoal Portrait</h2>
+                            <button class="card-button material-symbols-outlined">View Details</button>
+                        </li>
 
+                        <li class="card-item">
+                            <img src="images/image4.png" alt="Card Image" class="card-image">
+                            <div class="badge-container">
+                                <p class="centered badge"> Commissioned </p>
+                                <p class="centered year-badge"> 2025 </p>
+                            </div>
+                            <h2 class="card-title">Digital Carricature Portrait</h2>
+                            <button class="card-button material-symbols-outlined">View Details</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
     <script src="script/animation.js" defer></script>
 
-
-    <!-- featured artworks Headers -->
-    <div class="centered FA-headers-container ">
-        <div class="FA-main-header"> Featured Artworks </div>
-        <div class="FA-intro-container">
-            <div class="FA-intro-header">
-                Showcasing selected commissioned and personal artworks
-                crafted with creativity and passion.</div>
-        </div>
-    </div>
-
-
-    <div class="artwork-container">
-
-        <div class="card-wrapper">
-
-            <ul class="card-list">
-                <li class="card-item">
-                    <img src="images/img1.jpg" alt="Card Image" class="card-image">
-                    <div class="badge-container">
-                        <p class="badge"> Commissioned </p>
-                        <p class=" year-badge"> 2024 </p>
-                    </div>
-                    <!-- card-title -->
-                    <h2 class="card-title">Pure Charcoal portrait</h2>
-                    <button class="card-button
-                            material-symbols-outlined">View Details
-                    </button>
-                </li>
-
-                <li class="card-item">
-                    <img src="images/img2.jpg" alt="Card Image" class="card-image">
-                    <div class="badge-container">
-                        <p class="badge"> Personal </p>
-                        <p class="year-badge"> 2025 </p>
-                    </div>
-                    <!-- card-title -->
-                    <h2 class="card-title">Mixed Medium Eye Portrait</h2>
-                    <button class="card-button
-                            material-symbols-outlined"> View Details
-                    </button>
-                </li>
-
-                <li class="card-item">
-                    <img src="images/img3.jpg" alt="Card Image" class="card-image">
-                    <div class="badge-container">
-                        <p class="centered badge"> Commissioned </p>
-                        <p class="centered year-badge"> 2024 </p>
-                    </div>
-                    <!-- card-title -->
-                    <h2 class="card-title">Pure Charcoal Portrait</h2>
-                    <button class="card-button material-symbols-outlined">View Details
-                    </button>
-                </li>
-
-                <li class="card-item">
-                    <img src="images/image4.png" alt="Card Image" class="card-image">
-                    <div class="badge-container">
-                        <p class="centered badge"> Commissioned </p>
-                        <p class="centered year-badge"> 2025 </p>
-                    </div>
-                    <!-- card-title -->
-                    <h2 class="card-title">Digital Carricature Portrait</h2>
-                    <button class="card-button material-symbols-outlined">View Details
-                    </button>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-
-
-
-    <!---------- FOOTER SECTION ----------->
     <footer>
-
-        <!-- Logo and Page name -->
         <div class="footer-content-container">
-            <div class=" About-container">
+            <div class="About-container">
                 <div class="logo">GDL</div>
                 <h5> Guhit Dave Lebico</h5>
             </div>
 
-            <!-- Quick links -->
             <div class="quick-link-container">
                 <h3>Quick Links</h3>
                 <ul class="footer-links">
@@ -192,7 +155,6 @@
                 </ul>
             </div>
 
-            <!-- Socials -->
             <div class="social-container">
                 <h3>Follow Me</h3>
                 <ul>

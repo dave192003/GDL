@@ -1,27 +1,22 @@
 .navBar {
     position: fixed;
     background-color: #3b3b3a;
-    padding: 10px 20px; 
     width: 100%;
     min-height: 40px;
     top: 0;
     left: 0;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
     z-index: 10;
-    box-sizing: border-box; 
-    /* ALIGNS ITEMS SIDE-BY-SIDE ON DESKTOP */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    box-sizing: border-box;
 }
 
 .navBar ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
     margin: 0;
     padding: 0;
-    gap: clamp(15px, 2vw, 30px); 
+    gap: clamp(15px, 2vw, 30px);
 }
 
 .navBar a {
@@ -29,7 +24,7 @@
     text-decoration: none;
     color: #e7e7e7;
     font-family: 'Courier Prime', monospace;
-    font-size: clamp(14px, 1.5vw, 18px); 
+    font-size: clamp(14px, 1.5vw, 18px);
     padding: 6px 14px;
     transition: all 0.3s ease;
 }
@@ -41,16 +36,9 @@
 }
 
 .navBar .logo-button-container {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+    gap: 50px;
 }
 
-.logo-button-container .logo {
-    font-size: clamp(18px, 4vw, 26px);
-    color: #ffffff;
-    font-family: "Gagalin", sans-serif;
-}
 
 .navBar .button {
     background-color: #ffbd59;
@@ -74,12 +62,19 @@
 }
 
 @keyframes pulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.03); }
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
 }
 
 .menu-toggle {
-    display: none; 
+    display: none;
     background: none;
     border: none;
     color: #ffffff;
@@ -96,62 +91,52 @@
     }
 }
 
-/* MOBILE VIEW (480px and down) */
 @media (max-width: 480px) {
-    
+    .navBar {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important; /* Nilock sa magkabilang gilid ng screen */
+        width: 100vw !important; /* Tamang viewport width control */
+        height: 50px !important;
+        padding: 0 15px !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .navBar .logo-button-container {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        margin: 0 !important;
+    }
 
     .menu-toggle {
-        display: block;
+        display: block !important;
+        margin: 0 !important;
     }
 
-  
-    .navBar .logo-button-container {
-        margin-left: 0;
-        gap: 10px;
-    }
-
-    .navBar .button {
-        width: auto; 
-        height: 26px;
-        font-size: 11px;
-        border-radius: 8px;
-    }
-
-    .navBar .button:active {
-        transform: scale(0.95);
-        background-color: #ffffff;
-        color: #ffbd59;
-    }
-
-    
+    /* DROPDOWN MENU */
     .navBar ul {
-        display: none; /* Hidden until hamburger is clicked */
+        display: none;
         flex-direction: column;
         position: absolute;
-        top: 70px;
+        top: 50px; /* Saktong bagsak sa ilalim ng navbar block */
         left: 0;
-        width: 100%;
+        width: 100vw !important;
+        box-sizing: border-box !important;
         background-color: #3b3b3a;
         padding: 20px 0;
         box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
         gap: 15px;
-        text-align: center;
     }
 
-    /* Force mobile link rows to occupy full block width */
-    .navBar ul li {
-        width: 100%;
-        margin: 0;
-    }
-
-    .navBar ul a {
-        font-size: 18px;
-        width: 80%;
-       
-    }
-
-    /* THIS CLASS IS TOGGLED VIA JAVASCRIPT */
     .navBar ul.active {
-        display: flex;
+        display: flex !important;
     }
 }

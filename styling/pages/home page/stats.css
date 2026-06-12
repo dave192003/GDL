@@ -27,13 +27,14 @@
 
 @media (max-width:480px) and (min-width: 300px) {
     .stats-container {
-        gap: clamp(-23px, -25vw, 15px);
+        gap: clamp(1px, -13vw, 10px);
         padding-left: 0;
+        width:100%;
         
     }
 
     .stats-container .stats {
-    gap: 5px;
+    gap: 0;
 }
 
 }
