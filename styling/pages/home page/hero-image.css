@@ -1,6 +1,5 @@
 .image-box {
     grid-column: 2;
-
     height: auto;
     width: clamp(30px, 38vw, 900px);
     margin-left: clamp(35px, 10vw, 170px);
@@ -24,11 +23,8 @@
         width: 100%;
         margin-left: 0;
         padding-left: 0;
-        border: 1px solid black;
+      
 
     }
-    .my-image {
-        BORDER: 1PX SOLID BLACK;
-
-    }
+   
 }
