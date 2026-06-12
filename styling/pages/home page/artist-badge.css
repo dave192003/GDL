@@ -11,16 +11,16 @@
 /* shared attributes */
 .artist-badge-1,
 .artist-badge-2,
-.artist-badge-3{
+.artist-badge-3 {
     text-align: center;
     line-height: 1.6;
     font-family: 'Courier Prime', monospace;
     padding-top: 2px;
     border-radius: 5px;
-   
+
     box-shadow:
-    5px 5px 20px rgba(0, 0, 0, 0.596),
-    -3px -5px 6px rgb(255, 255, 255);
+        5px 5px 20px rgba(0, 0, 0, 0.596),
+        -3px -5px 6px rgb(255, 255, 255);
 
 }
 
@@ -30,8 +30,8 @@
     color: rgba(255, 255, 255, 0.753);
     background: rgba(128, 125, 125, 0.959);
     width: clamp(5px, 17vw, 250px);
-  
-   
+
+
 }
 
 .artist-badge-2 {
@@ -40,18 +40,18 @@
     color: rgba(31, 30, 30, 0.781);
     background: rgba(253, 212, 77, 0.425);
     width: clamp(5px, 10.6vw, 145px);
-    
-    
+
+
 }
 
 .artist-badge-3 {
-   
+
     font-size: clamp(5px, 1vw, 15px);
     color: rgba(63, 57, 57, 0.829);
     background: rgba(255, 255, 255, 0.774);
     width: clamp(5px, 10.8vw, 145px);
-    
-   
+
+
 }
 
 /* Shared Hover */
@@ -63,7 +63,7 @@
 }
 
 /* Mobile View */
-@media (max-width:480px) and (min-width: 320px){
+@media (max-width:480px) and (min-width: 320px) {
     .artist-badges-box {
         background: rgba(253, 253, 253, 0.2);
         border-top-left-radius: 11px;
@@ -72,6 +72,15 @@
         border-bottom-right-radius: 0px;
         width: 100%;
         background: none;
+    }
+
+    /* shared attributes */
+    .artist-badge-1,
+    .artist-badge-2,
+    .artist-badge-3 {
+        box-shadow:
+            5px 5px 10px rgba(0, 0, 0, 0.411),
+            -3px -5px 6px rgb(255, 255, 255);
     }
 
     .artist-badge-1 {
