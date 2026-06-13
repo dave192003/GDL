@@ -122,6 +122,23 @@
         padding: 20px 0;
         box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
         gap: 15px;
+        opacity: 0;
+        transform: translate(0);
+        animation: swipe-left 0.5s ease forwards;
+
+    }
+
+    /* menu-toggle transition effect */
+    @keyframes swipe-left{
+        0%{
+            transform: translateX(-100px);
+            opacity: 0.5;
+        }
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+
     }
 
     .navBar ul.active {
