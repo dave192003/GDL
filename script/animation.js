@@ -8,7 +8,7 @@ function initScrollAnimation() {
       }
     });
   }, {
-    threshold: 0.2
+    threshold: 0.6
   });
 
   cards.forEach(card => observer.observe(card));
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Toggles the .active class on and off when clicked
         navLinks.classList.toggle('active');
         
-        // Optional: Animates the hamburger icon to change appearance slightly when open
+       
         const icon = menuToggle.querySelector('i');
         if (navLinks.classList.contains('active')) {
             icon.classList.replace('fa-bars', 'fa-times'); // Changes ☰ to ✕
