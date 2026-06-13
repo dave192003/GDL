@@ -89,6 +89,7 @@
 @media (max-width: 780px) {
     .navBar {
         padding: 10px 15px;
+        position: fixed;
     }
 }
 
@@ -96,7 +97,7 @@
     .navBar {
         padding: 5px 10px;
         display: flex !important;
-       flex-direction: row-reverse;
+        flex-direction: row-reverse;
     }
 
     .menu-toggle {
@@ -105,10 +106,12 @@
       
     }
 
+    
+
     /* DROPDOWN MENU */
     .navBar ul {
         display: none;
-        flex-direction: column;
+        flex-direction: row;
         position: absolute;
         top: 50px;
         /* Saktong bagsak sa ilalim ng navbar block */

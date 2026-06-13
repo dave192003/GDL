@@ -18,7 +18,7 @@ initScrollAnimation();
 
 document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.querySelector('.menu-toggle');
-    const navLinks = document.querySelector('.nav-links');
+    const navLinks = document.querySelector('ul');
 
     menuToggle.addEventListener('click', () => {
         // Toggles the .active class on and off when clicked
