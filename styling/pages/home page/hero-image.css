@@ -13,6 +13,7 @@
     box-shadow:
         10px 20px 20px #5e5b5bbb,
         -20px -5px 25px #ffffff;
+    border-left: 2px solid rgba(255, 255, 255, 0.836); 
 }
 
 /* ____________________ MOBILE VIEW __________________ */

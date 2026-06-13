@@ -95,11 +95,14 @@
 @media (max-width: 480px) {
     .navBar {
         padding: 5px 10px;
+        display: flex !important;
+       flex-direction: row-reverse;
     }
 
     .menu-toggle {
         display: block !important;
         margin: 0 !important;
+      
     }
 
     /* DROPDOWN MENU */

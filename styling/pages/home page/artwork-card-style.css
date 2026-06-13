@@ -114,8 +114,11 @@
         padding: 5px 5px;
 
     }
+    .card-list {
+        gap: 30px;
+    }
 
-    .crad-list .card-item{
+    .card-list .card-item{
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.459);
     }
 }
