@@ -38,8 +38,9 @@
     font-size: clamp(20px, 3vw, 35px);
     font-weight: bold;
     margin-top: 50px;
-    margin-Bottom:-2px;
+    margin-Bottom:-33px;
     margin-left: 2px;
+    text-align: start;
 
 }
 
