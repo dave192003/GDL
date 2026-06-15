@@ -9,7 +9,7 @@
 }
 
 .stats-container .stats {
-    gap: -1px;
+    gap: 0.03rem;
 }
 
 .stats-container h2 {
