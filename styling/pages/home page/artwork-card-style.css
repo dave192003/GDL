@@ -77,12 +77,13 @@
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.329);
     padding: 3px 5px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    border: none;
 }
 
 .badge-container .badge {
-    background: rgba(14, 11, 11, 0.116);
-    color: #817f7f;
+    background: rgba(14, 11, 11, 0.24);
+    color: #fffafa;
 
 }
 
@@ -101,18 +102,29 @@
     overflow: hidden;
     font-size: clamp(20px, 2vw, 30px);
     font-family: var(--font-primary);
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: rgb(71, 71, 71);
 }
 
 /* Mobile platform */
 @media (max-width: 480px) and (min-width: 320px) {
 
+    .badge-container{
+        gap: 0.5rem;
+    }
+
     .badge-container .badge,
     .badge-container .year-badge {
         font-size: clamp(2px, 4vw, 11px);
-        padding: 5px 5px;
+        padding: 3px 3px;
+        border-radius: 5px;
+        margin-top: 1px;
+        height: auto;        
 
+    }
+
+    .card-list .card-item .card-title{
+        margin-bottom: 0;
     }
     .card-list {
         gap: 30px;
