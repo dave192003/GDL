@@ -8,7 +8,7 @@ function initScrollAnimation() {
       }
     });
   }, {
-    threshold: 0.6
+    threshold: 0.4
   });
 
   cards.forEach(card => observer.observe(card));
