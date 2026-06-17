@@ -111,19 +111,20 @@
     /* DROPDOWN MENU */
     .navBar ul {
         display: none;
-        flex-direction: row;
+        flex-direction: column;
         position: absolute;
         top: 50px;
         /* Saktong bagsak sa ilalim ng navbar block */
         left: 0;
-        width: 100vw !important;
+        width: 30vw !important;
         box-sizing: border-box !important;
         background-color: #3b3b3a;
         padding: 20px 0;
         box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-        gap: 15px;
+        gap: 1rem;
         opacity: 0;
-        transform: translate(0);
+        transform: translate(0); 
+        border-bottom-right-radius: 20px; 
         animation: swipe-left 0.5s ease forwards;
 
     }
